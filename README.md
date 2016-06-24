@@ -1,5 +1,7 @@
 # Ummisco
 Glossaire Git pour les Nuls
+
+
 git init : Initialise un dépôt git dans un répertoire vide.
 git status : Affiche le statut des choses dans le répertoire suivi
 git add <NOM DU FICHIER A SUIVRE> : Ajoute un fichier à suivre dans la zone d’attente
