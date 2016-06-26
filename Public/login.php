@@ -8,6 +8,8 @@
  ?>
 
 <br/><br/><br/>
+<br/><br/><br/>
+<br/><br/><br/> 
 
 <div class="container content">
 		<div class="row content">
@@ -23,7 +25,7 @@
 									<div class="form-group" >
 										<div class="col-xs-8 col-xs-offset-2 input-group input-group-lg">
 										  <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-										  <input style="width:295px;padding:30px;border-radius:0px"  type="text" class="form-control" placeholder="Login" name="login">
+										  <input style="width:295px;padding:30px;border-radius:0px"  type="text" class="form-control" placeholder="Email" name="email">
 										</div>
 									</div>
 									<br/>

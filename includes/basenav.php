@@ -31,7 +31,7 @@
                 } 
                 ?>
                 >
-              <a href="../Public/preinscription.php">
+              <a href="../Public/Preinscription/preinscription.php">
                 <span class="glyphicon glyphicon-education"></span> 
                 Préinscription
               </a>

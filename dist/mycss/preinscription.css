@@ -276,3 +276,11 @@ body {
     color: #fff; /* active text color */
     background-color: #a94442; /* active bg color */
 }
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 1px solid #bce8f1;
+}

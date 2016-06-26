@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Sam 18 Juin 2016 à 14:57
+-- Généré le :  Mer 22 Juin 2016 à 21:33
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -19,6 +19,7 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `ummiscodb`
 --
+
 CREATE DATABASE ummiscodb;
 USE ummiscodb;
 
@@ -29,7 +30,7 @@ USE ummiscodb;
 --
 
 CREATE TABLE IF NOT EXISTS `adresse` (
-  id int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `ville` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `rueQuartier` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
@@ -44,8 +45,8 @@ CREATE TABLE IF NOT EXISTS `adresse` (
 CREATE TABLE IF NOT EXISTS `bourse` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `montantBourse` int(11) NOT NULL,
-  `nature_bourse` enum('Nationale','Etrangere','Etablissement') COLLATE utf8_unicode_ci DEFAULT NULL,
-  `statut_bourse` enum('Non Boursier','Boursier','Etranger','Etranger Exonere') COLLATE utf8_unicode_ci DEFAULT NULL,
+  `natureBourse` enum('Nationale','Etrangere','Etablissement') COLLATE utf8_unicode_ci DEFAULT NULL,
+  `statutBourse` enum('Non Boursier','Boursier','Etranger','Etranger Exonere') COLLATE utf8_unicode_ci DEFAULT NULL,
   `tauxExoneration` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
@@ -65,16 +66,21 @@ CREATE TABLE IF NOT EXISTS `candidat` (
   `nbEnfants` int(11) DEFAULT NULL,
   `datSoumission` date NOT NULL,
   `categorieSocioPro` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
+  `anneeEtude` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `cycle` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `nbInscriptAnt` int(11) NOT NULL,
+  `redouble` tinyint(1) NOT NULL,
   `aptitude` tinyint(1) NOT NULL,
   `signature` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `departement_id` int(11) DEFAULT NULL,
-  `bourse_id` int(11) DEFAULT NULL, 
-  actor_id int(11),
+  `bourse_id` int(11) DEFAULT NULL,
+  `actor_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `UNIQ_6AB5B4717EE1FA43` (`ine`),
   UNIQUE KEY `UNIQ_6AB5B4717AC033BE` (`cni`),
   KEY `IDX_6AB5B4714E67DDD1` (`bourse_id`),
-  KEY `IDX_6AB5B471CCF9E01E` (`departement_id`)
+  KEY `IDX_6AB5B471CCF9E01E` (`departement_id`),
+  KEY `fk_Can_actor_id_Umm` (`actor_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -86,8 +92,9 @@ CREATE TABLE IF NOT EXISTS `candidat` (
 CREATE TABLE IF NOT EXISTS `chercheur` (
   `id` int(11) NOT NULL,
   `nbPublications` int(11) NOT NULL,
-  actor_id int(11),
-  PRIMARY KEY (`id`)
+  `actor_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_Che_actor_id_Umm` (`actor_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -101,7 +108,19 @@ CREATE TABLE IF NOT EXISTS `departement` (
   `nomDept` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `UNIQ_C1765B63FCD8ECC7` (`nomDept`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=7 ;
+
+--
+-- Contenu de la table `departement`
+--
+
+INSERT INTO `departement` (`id`, `nomDept`) VALUES
+(2, 'Genie Chimique'),
+(5, 'Genie Civil'),
+(4, 'Genie Electrique'),
+(1, 'Genie Informatique'),
+(3, 'Genie Mecanique'),
+(6, 'Gestion');
 
 -- --------------------------------------------------------
 
@@ -112,35 +131,14 @@ CREATE TABLE IF NOT EXISTS `departement` (
 CREATE TABLE IF NOT EXISTS `diplome` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nomDiplome` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `mention` enum('Passable','Assez Bien','Bien','Tres Bien') COLLATE utf8_unicode_ci NOT NULL,
+  `dateObtention` date NOT NULL,
+  `lieuObtention` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
+  `candidat_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `UNIQ_EB4C4D4E5D0D0C06` (`nomDiplome`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
-
--- --------------------------------------------------------
-
---
--- Structure de la table `diplome_domaine`
---
-
-CREATE TABLE IF NOT EXISTS `diplome_domaine` (
-  `diplome_id` int(11) NOT NULL,
-  `domaine_id` int(11) NOT NULL,
-  PRIMARY KEY (`diplome_id`,`domaine_id`),
-  KEY `IDX_32B2130E26F859E2` (`diplome_id`),
-  KEY `IDX_32B2130E4272FC9F` (`domaine_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Structure de la table `domaine`
---
-
-CREATE TABLE IF NOT EXISTS `domaine` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `libelle` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+  UNIQUE KEY `UNIQ_EB4C4D4E5D0D0C06` (`nomDiplome`),
+  KEY `fk_Dip_candidat_id_Can` (`candidat_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=6 ;
 
 -- --------------------------------------------------------
 
@@ -151,8 +149,9 @@ CREATE TABLE IF NOT EXISTS `domaine` (
 CREATE TABLE IF NOT EXISTS `enseignant_chercheur` (
   `id` int(11) NOT NULL,
   `nbPublications` int(11) NOT NULL,
-  actor_id int(11),
-  PRIMARY KEY (`id`)
+  `actor_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_Ens_actor_id_Umm` (`actor_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -164,28 +163,11 @@ CREATE TABLE IF NOT EXISTS `enseignant_chercheur` (
 CREATE TABLE IF NOT EXISTS `etudiant` (
   `id` int(11) NOT NULL,
   `responsable_id` int(11) DEFAULT NULL,
-  actor_id int(11),
+  `actor_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `IDX_717E22E353C59D72` (`responsable_id`)
+  KEY `IDX_717E22E353C59D72` (`responsable_id`),
+  KEY `fk_Etu_actor_id_Umm` (`actor_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Structure de la table `infos_diplome`
---
-
-CREATE TABLE IF NOT EXISTS `infos_diplome` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `mention` enum('Passable','Assez Bien','Bien','Tres Bien') COLLATE utf8_unicode_ci DEFAULT NULL,
-  `datObtention` date NOT NULL,
-  `lieuObtention` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
-  `candidat_id` int(11) DEFAULT NULL,
-  `diplome_id` int(11) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `IDX_ECF4A6EE8D0EB82` (`candidat_id`),
-  KEY `IDX_ECF4A6EE26F859E2` (`diplome_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -199,7 +181,18 @@ CREATE TABLE IF NOT EXISTS `option_departement` (
   `departement_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `IDX_E74202D7CCF9E01E` (`departement_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=6 ;
+
+--
+-- Contenu de la table `option_departement`
+--
+
+INSERT INTO `option_departement` (`id`, `libelle`, `departement_id`) VALUES
+(1, 'Informatique', 1),
+(2, 'Telecoms', 1),
+(3, 'Analyses Biologiques', 2),
+(4, 'Industries Alimentaires', 2),
+(5, 'Genie Chimique', 2);
 
 -- --------------------------------------------------------
 
@@ -227,8 +220,9 @@ CREATE TABLE IF NOT EXISTS `responsable` (
 
 CREATE TABLE IF NOT EXISTS `rp` (
   `id` int(11) NOT NULL,
-  actor_id int(11),
-  PRIMARY KEY (`id`)
+  `actor_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_Rp_actor_id_Umm` (`actor_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -267,44 +261,36 @@ CREATE TABLE IF NOT EXISTS `ummisco_actor` (
 ALTER TABLE `candidat`
   ADD CONSTRAINT `FK_6AB5B4714E67DDD1` FOREIGN KEY (`bourse_id`) REFERENCES `bourse` (`id`),
   ADD CONSTRAINT `FK_6AB5B471BF396750` FOREIGN KEY (`id`) REFERENCES `ummisco_actor` (`id`) ON DELETE CASCADE,
-  ADD CONSTRAINT `FK_6AB5B471CCF9E01E` FOREIGN KEY (`departement_id`) REFERENCES `departement` (`id`);
-
+  ADD CONSTRAINT `FK_6AB5B471CCF9E01E` FOREIGN KEY (`departement_id`) REFERENCES `departement` (`id`),
+  ADD CONSTRAINT `fk_Can_actor_id_Umm` FOREIGN KEY (`actor_id`) REFERENCES `ummisco_actor` (`id`);
 
 --
 -- Contraintes pour la table `chercheur`
 --
 ALTER TABLE `chercheur`
-  ADD CONSTRAINT `FK_9DD29B50BF396750` FOREIGN KEY (`id`) REFERENCES `ummisco_actor` (`id`) ON DELETE CASCADE;
-  
+  ADD CONSTRAINT `FK_9DD29B50BF396750` FOREIGN KEY (`id`) REFERENCES `ummisco_actor` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `fk_Che_actor_id_Umm` FOREIGN KEY (`actor_id`) REFERENCES `ummisco_actor` (`id`);
 
 --
--- Contraintes pour la table `diplome_domaine`
+-- Contraintes pour la table `diplome`
 --
-ALTER TABLE `diplome_domaine`
-  ADD CONSTRAINT `FK_32B2130E26F859E2` FOREIGN KEY (`diplome_id`) REFERENCES `diplome` (`id`) ON DELETE CASCADE,
-  ADD CONSTRAINT `FK_32B2130E4272FC9F` FOREIGN KEY (`domaine_id`) REFERENCES `domaine` (`id`) ON DELETE CASCADE;
+ALTER TABLE `diplome`
+  ADD CONSTRAINT `fk_Dip_candidat_id_Can` FOREIGN KEY (`candidat_id`) REFERENCES `candidat` (`id`);
 
 --
 -- Contraintes pour la table `enseignant_chercheur`
 --
 ALTER TABLE `enseignant_chercheur`
-  ADD CONSTRAINT `FK_45751903BF396750` FOREIGN KEY (`id`) REFERENCES `ummisco_actor` (`id`) ON DELETE CASCADE;
-  
+  ADD CONSTRAINT `FK_45751903BF396750` FOREIGN KEY (`id`) REFERENCES `ummisco_actor` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `fk_Ens_actor_id_Umm` FOREIGN KEY (`actor_id`) REFERENCES `ummisco_actor` (`id`);
 
 --
 -- Contraintes pour la table `etudiant`
 --
 ALTER TABLE `etudiant`
   ADD CONSTRAINT `FK_717E22E353C59D72` FOREIGN KEY (`responsable_id`) REFERENCES `responsable` (`id`),
-  ADD CONSTRAINT `FK_717E22E3BF396750` FOREIGN KEY (`id`) REFERENCES `ummisco_actor` (`id`) ON DELETE CASCADE;
-  
-
---
--- Contraintes pour la table `infos_diplome`
---
-ALTER TABLE `infos_diplome`
-  ADD CONSTRAINT `FK_ECF4A6EE26F859E2` FOREIGN KEY (`diplome_id`) REFERENCES `diplome` (`id`),
-  ADD CONSTRAINT `FK_ECF4A6EE8D0EB82` FOREIGN KEY (`candidat_id`) REFERENCES `candidat` (`id`);
+  ADD CONSTRAINT `FK_717E22E3BF396750` FOREIGN KEY (`id`) REFERENCES `ummisco_actor` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `fk_Etu_actor_id_Umm` FOREIGN KEY (`actor_id`) REFERENCES `ummisco_actor` (`id`);
 
 --
 -- Contraintes pour la table `option_departement`
@@ -316,22 +302,14 @@ ALTER TABLE `option_departement`
 -- Contraintes pour la table `rp`
 --
 ALTER TABLE `rp`
-  ADD CONSTRAINT `FK_CD578B7BF396750` FOREIGN KEY (`id`) REFERENCES `ummisco_actor` (`id`) ON DELETE CASCADE;
+  ADD CONSTRAINT `FK_CD578B7BF396750` FOREIGN KEY (`id`) REFERENCES `ummisco_actor` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `fk_Rp_actor_id_Umm` FOREIGN KEY (`actor_id`) REFERENCES `ummisco_actor` (`id`);
 
 --
 -- Contraintes pour la table `ummisco_actor`
 --
 ALTER TABLE `ummisco_actor`
   ADD CONSTRAINT `FK_3DDB6FF44DE7DC5C` FOREIGN KEY (`adresse_id`) REFERENCES `adresse` (`id`);
-
---
--- Contraintes pour heritage
---
-ALTER TABLE candidat ADD CONSTRAINT fk_Can_actor_id_Umm FOREIGN KEY(actor_id) REFERENCES ummisco_actor(id);
-ALTER TABLE chercheur ADD CONSTRAINT fk_Che_actor_id_Umm FOREIGN KEY(actor_id) REFERENCES ummisco_actor(id);
-ALTER TABLE etudiant ADD CONSTRAINT fk_Etu_actor_id_Umm FOREIGN KEY(actor_id) REFERENCES ummisco_actor(id);
-ALTER TABLE enseignant_chercheur ADD CONSTRAINT fk_Ens_actor_id_Umm FOREIGN KEY(actor_id) REFERENCES ummisco_actor(id);
-ALTER TABLE rp ADD CONSTRAINT fk_Rp_actor_id_Umm FOREIGN KEY(actor_id) REFERENCES ummisco_actor(id);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

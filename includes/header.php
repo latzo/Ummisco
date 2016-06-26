@@ -9,7 +9,7 @@
             ?>
              - UMMISCO
         </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="../dist/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="../dist/font-awesome/css/font-awesome.min.css"/> 
         <?php 
