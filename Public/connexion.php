@@ -1,18 +1,18 @@
- <?php
- if(isset($_POST['login']) && isset($_POST['password']) )
+<?php
+session_start();
+require('../Functions/bdd.php');
+
+var_dump($_POST);
+
+ if(isset($_POST['email']) && isset($_POST['password']) )
 			
 		
-		 { 
+ {
 		 
 		 
-	   try{
-		$bdd=new PDO('mysql:host=localhost;dbname=ummiscodb;','root','',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-	   }
-	   catch (Exception $e){
-			die('Erreur'.$e->getMessage());
-	   }
+	   $bdd = connexion();
 		
-		$login=$_POST['login'];
+		$login=$_POST['email'];
 		$pass_hache=sha1($_POST['password']);
 		$req=$bdd->prepare('select id from ummisco_actor where email= :login and password= :pass');
 		$req->execute(array(
@@ -89,7 +89,7 @@
 				}
 			}
 			 
-			session_start();
+
 			$_SESSION['id']=$res['id'];
 			$_SESSION['login']=$login;
 			

@@ -27,6 +27,17 @@ function check(deb,fin)
 			break;
 
 		}
+		if(i==47)
+		{
+			if(inputs[i].checked == true)
+			{
+				disabled=false;
+			}
+			else
+			{
+				disabled=true;
+			}
+		}
 	}
 	//alert(inputs[14].name);
 	if(disabled==true)
@@ -58,7 +69,15 @@ function check(deb,fin)
 		}
 		if(fin==45)
 		{
-			s6.disabled=true;
+			s7.disabled=true;
+		}
+		if(fin==46)
+		{
+			s8.disabled=true;
+		}
+		if(fin==47)
+		{
+			s9.disabled=true;
 		}
 	}
 	else
@@ -92,6 +111,14 @@ function check(deb,fin)
 		{
 			s7.disabled=false;
 		}
+		if(fin==46)
+		{
+			s8.disabled=false;
+		}
+		if(fin==47)
+		{
+			s9.disabled=false;
+		}
 
 	}
 	
@@ -113,6 +140,7 @@ function check(deb,fin)
  ?>
 
 <br/><br/><br/>
+
 
 <div class="container col-xs-10 col-xs-offset-1 preinscriptioncontent">
 		
@@ -162,7 +190,7 @@ function check(deb,fin)
             
 
             <div class="panel-body">
-            	<form action="preinscriptionaction.php" method="POST" class="form" name="form1" role="form">
+            	<form action="preinscriptionaction.php" method="POST" class="form" name="form1" enctype="multipart/form-data">
 
                 	<div class="tab-content">  
                 		<br>
@@ -186,7 +214,7 @@ function check(deb,fin)
 							<div class="form-group col-xs-6">
 								<label class="col-xs-6 control-label text-right" for="dateNaiss">Date de Naissance :</label>
 								<div class="col-xs-6">
-			    					<input  name="dateNaiss" id="4" class="form-control" type="date" onkeyup="check(0,8)"></input>
+			    					<input  name="dateNaiss" id="4" class="form-control" type="date" onkeyup="check(0,8)">
 								</div>
 							</div>
 							<div class="form-group col-xs-6">
@@ -428,7 +456,7 @@ function check(deb,fin)
                         		</div>
 
                         		<div class="col-xs-2">                        			
-                        			<input type="file" name="fileBac" placeholder="Justificatif" class="form-control" onkeyup="check(20,39)">
+                        			<input type="file" name="fileBac" placeholder="Justificatif" class="form-control" onchange="check(20,39)">
                         		</div>
 
 							</div>
@@ -568,30 +596,30 @@ function check(deb,fin)
 
                     	</div>
 
-                    <div class="tab-pane fade" id="tab7primary">
+                    	<div class="tab-pane fade" id="tab7primary">
 
                         	<div class="form-group col-xs-6">
-								<input type="text" name="prenomResponsable" placeholder="Prénom" class="form-control" onblur="check(40,45)">
+								<input type="text" name="prenomResponsable" placeholder="Prénom" class="form-control" onkeyup="check(40,45)">
 								<br/>
 							</div>
 							<div class="form-group col-xs-6">
-								<input type="text" name="nomReponsable" placeholder="Nom" class="form-control" onblur="check(40,45)">
+								<input type="text" name="nomReponsable" placeholder="Nom" class="form-control" onkeyup="check(40,45)">
 								<br/>
 							</div>
 							<div class="form-group col-xs-6">
-								<input type="text" name="emailResponsable" placeholder="Email" class="form-control" onblur="check(40,45)">
+								<input type="text" name="emailResponsable" placeholder="Email" class="form-control" onkeyup="check(40,45)">
 								<br/>
 							</div>
 							<div class="form-group col-xs-6">
-								<input type="text" name="numTelResponsable" placeholder="Telephone" class="form-control" onblur="check(40,45)">
+								<input type="text" name="numTelResponsable" placeholder="Telephone" class="form-control" onkeyup="check(40,45)">
 								<br/>
 							</div>
 							<div class="form-group col-xs-6">
-								<input type="text" name="boitePostaleResponsable" placeholder="Boite Postale" class="form-control" onblur="check(40,45)">
+								<input type="text" name="boitePostaleResponsable" placeholder="Boite Postale" class="form-control" onkeyup="check(40,45)">
 								<br/>
 							</div>
 							<div class="form-group col-xs-6">
-								<input type="text" name="adresseReponsable" placeholder="Adresse" class="form-control" onblur="check(40,45)">
+								<input type="text" name="adresseReponsable" placeholder="Adresse" class="form-control" onkeyup="check(40,45)">
 								<br/>
 							</div>
 
@@ -617,28 +645,31 @@ function check(deb,fin)
 
 							<div class="col-xs-6">
 								<label class="col-xs-6 control-label" for="Justificatif">Justificatif visite Medicale</label>
-								<input type="file" name="fileVisiteMedicale" class="form-control">
+								<input type="file" name="fileVisiteMedicale" class="form-control" onchange="check(46,46)">
 								<br>
 							</div>
-
+							<br>
 	                        <div class="row">
 	                            <div class="col-lg-12">
 	                                <div class="pull-right">
-	                                    <button class="btn btn-default previous-tab" type="button"><span class="glyphicon glyphicon-chevron-left"></span> Previous</button>
-	                                    <button class="btn btn-default next-tab" type="button"><span class="glyphicon glyphicon-chevron-right"></span> Next</button>
+	                                    <button class="btn btn-default previous-tab" type="button"><span class="glyphicon glyphicon-chevron-left"></span> Precedent</button>
+	                                    <button class="btn btn-default next-tab" type="button" id="s8" disabled><span class="glyphicon glyphicon-chevron-right"></span> Suivant</button>
 	                                </div>
 	                            </div>
 	                        </div>   
                     	</div>
 
                     	<div class="tab-pane fade" id="tab9primary">
-	                    	<p>Je soussigne sur l'honneur l'exactitude des renseignements fournis</p>
+							<input type="checkbox" onchange="check(47,47)">
+							<label> Je soussigne sur l'honneur l'exactitude des renseignements fournis</label>
+							<br>
 	                    	<br>                    		                
 	                        <div class="row">
+								<br>
 	                            <div class="col-lg-12">
 	                                <div class="pull-right">
-	                                    <button class="btn btn-default previous-tab" type="button"><span class="glyphicon glyphicon-chevron-left"></span> Previous</button>
-	                                    <button type="submit" class="btn btn-success next-tab"><span class="glyphicon glyphicon-chevron-ok"></span> Valider</button>
+	                                    <button class="btn btn-default previous-tab" type="button"><span class="glyphicon glyphicon-chevron-left"></span> Precedent</button>
+	                                    <button type="submit" class="btn btn-default next-tab" disabled id="s9"><span class="glyphicon glyphicon-chevron-ok"></span> Valider</button>
 	                                </div>
 	                            </div>
 	                        </div>   	                   
@@ -653,14 +684,6 @@ function check(deb,fin)
 		</div><!--fin panel-content-->
 
 	</div><!--fin panel-entier-->
-
-	<!--<div class="row col-md-12">
-
-		<?php
-			//var_dump($_POST);
-		?>
-
-	</div>-->
 		
 		
 </div><!--page container-->

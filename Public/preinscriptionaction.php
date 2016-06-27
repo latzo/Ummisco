@@ -2,13 +2,11 @@
 
 include_once('../Functions/bdd.php');
 
-
+//validation cote client ok
+//Validation php a faire
 function isValid()
 {
-	if($_POST['ine']=="")
-	{
-		return false;
-	}
+	return true;
 
 }
 
@@ -22,9 +20,8 @@ function test_input($data) {
 
 if(isValid())
 {
-	echo $_POST['ine'].$_POST['cni'].$_POST['prenom'].$_POST['nom'].$_POST['dateNaiss'].$_POST['email'];
-	/*
 	extract($_POST);
+	
 	$donnees_ummiscoactor = array(
 	'prenom' => strip_tags($prenom), 
 	'nom' => strip_tags($nom),
@@ -66,46 +63,6 @@ if(isValid())
 	);
 
 
-	$donnees_diplome1 = array(
-	'nomdiplome' => $nomDiplomeBac,
-	'mention' => $mentionBac,
-	'dateObtention' => $anneeObtentionBac,
-	'lieuObtention' => $lieuObtentionBac,
-	
-	);
-
-	$donnees_diplome2 = array(
-	'nomdiplome' => $nomDiplome2,
-	'mention' => $mentionDiplome2,
-	'dateObtention' => $anneeObtentionDiplome2,
-	'lieuObtention' => $lieuObtentionDiplome2,
-	
-	);
-
-	$donnees_diplome3 = array(
-	'nomdiplome' => $nomDiplome3,
-	'mention' => $mentionDiplome3,
-	'dateObtention' => $anneeObtentionDiplome3,
-	'lieuObtention' => $lieuObtentionDiplome3,
-	
-	);
-
-	$donnees_diplome4 = array(
-	'nomdiplome' => $nomDiplome4,
-	'mention' => $mentionDiplome4,
-	'dateObtention' => $anneeObtentionDiplome4,
-	'lieuObtention' => $lieuObtentionDiplome4,
-	
-	);
-
-	$donnees_diplome5 = array(
-	'nomdiplome' => $nomDiplome5,
-	'mention' => $mentionDiplome5,
-	'dateObtention' => $anneeObtentionDiplome5,
-	'lieuObtention' => $lieuObtentionDiplome5,
-	
-	);
-
 	$donnees_bourse = array(
 	'montantBourse' => $montantBourse ,
 	'natureBourse' => $natureBourse,
@@ -127,19 +84,60 @@ if(isValid())
 
 	);
 
+	$donnees_diplome1 = array(
+		'nomdiplome' => $nomDiplomeBac,
+		'mention' => $mentionBac,
+		'dateObtention' => $anneeObtentionBac,
+		'lieuObtention' => $lieuObtentionBac,
 
-	var_dump($donnees_ummiscoactor);
-	var_dump($donnees_candidat);
-	var_dump($donnees_adresse);
-	var_dump($donnees_diplome1);
-	var_dump($donnees_diplome2);
-	var_dump($donnees_diplome3);
-	var_dump($donnees_diplome4);
-	var_dump($donnees_diplome5);
-	var_dump($donnees_bourse);
-	var_dump($donnees_responsable);
-	var_dump($donnees_adresse_responsable);
+	);
 
+	$donnees_diplome2 = array(
+		'nomdiplome' => $nomDiplome2,
+		'mention' => $mentionDiplome2,
+		'dateObtention' => $anneeObtentionDiplome2,
+		'lieuObtention' => $lieuObtentionDiplome2,
+
+	);
+
+	$donnees_diplome3 = array(
+		'nomdiplome' => $nomDiplome3,
+		'mention' => $mentionDiplome3,
+		'dateObtention' => $anneeObtentionDiplome3,
+		'lieuObtention' => $lieuObtentionDiplome3,
+
+	);
+
+	$donnees_diplome4 = array(
+		'nomdiplome' => $nomDiplome4,
+		'mention' => $mentionDiplome4,
+		'dateObtention' => $anneeObtentionDiplome4,
+		'lieuObtention' => $lieuObtentionDiplome4,
+
+	);
+
+	$donnees_diplome5 = array(
+		'nomdiplome' => $nomDiplome5,
+		'mention' => $mentionDiplome5,
+		'dateObtention' => $anneeObtentionDiplome5,
+		'lieuObtention' => $lieuObtentionDiplome5,
+
+	);
+
+
+
+
+	//var_dump($donnees_ummiscoactor);
+	//var_dump($donnees_candidat);
+	//var_dump($donnees_adresse);
+	//var_dump($donnees_diplome1);
+	//var_dump($donnees_diplome2);
+	//var_dump($donnees_diplome3);
+	//var_dump($donnees_diplome4);
+	//var_dump($donnees_diplome5);
+	//var_dump($donnees_bourse);
+	//var_dump($donnees_responsable);
+	//var_dump($donnees_adresse_responsable);
 
 	$bdd;
 
@@ -206,7 +204,7 @@ if(isValid())
 	//Ajout de l'id du pere ummiscoactor dans les donnees du candidat
 	$donnees_candidat['actor_id'] = $lastummiscoactorid;
 
-	var_dump($donnees_candidat);
+	//var_dump($donnees_candidat);
 
 	//Insertion dans candidat
 	$req = $bdd->prepare('INSERT INTO candidat(ine,cni,statut,situationFamiliale,nbEnfants,datSoumission,categorieSocioPro,anneeEtude,cycle,nbInscriptAnt,
@@ -216,7 +214,54 @@ if(isValid())
 	$req->execute($donnees_candidat);
 	$req->closeCursor();
 	$lastcandidatid = $bdd->lastInsertId();
-	*/
+
+
+	// Insertion des diplomes dans la table diplome
+	//Prise en compte du diplome du Bac seulement pour le moment
+
+	$donnees_diplome1['candidat_id']=$lastcandidatid;
+	
+	$req = $bdd->prepare('INSERT INTO diplome(nomDiplome,mention,dateObtention,lieuObtention,candidat_id)
+		VALUES (:nomdiplome,:mention,:dateObtention,:lieuObtention,:candidat_id)');
+	$req->execute($donnees_diplome1);
+	$req->closeCursor();
+	
+	
+	//Enregistrement des fichiers
+	//POur le mom, enregistrement du diplome du bac et du justificatif de la visite medicale
+
+	//Gestion du fichier du bac
+	//var_dump($_FILES);
+
+	/*if (isset($_FILES['fileBac']) AND $_FILES['fileBac']['error']== 0)
+	{
+
+		// Testons si le fichier n'est pas trop gros
+        if ($_FILES['fileBac']['size'] <= 10000)
+        {
+			$infosfichier =pathinfo($_FILES['fileBac']['name']);
+			$extension_upload = $infosfichier['extension'];
+
+			$extensions_autorisees = array('pdf', 'docx');
+			$d=basename($_FILES['fileBac']['name']);
+			$nomImage='diplomeBac_'.$lastcandidatid.'.'.$extension_upload;
+			if (in_array($extension_upload,$extensions_autorisees))
+        	{
+				if(!is_dir('UserFiles/User'.$lastcandidatid))
+				{
+					//si le dossier a ete bien cree
+					if(mkdir('UserFiles/User'.$lastcandidatid,0733,true))
+					{
+						move_uploaded_file($_FILES['fileBac']['tmp_name'], 'dist/img/Journaliste/' .$nomImage);
+					}
+				}
+			}
+
+			
+		}
+
+	}*/
+	
 
 }
 else
