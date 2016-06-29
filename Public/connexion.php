@@ -43,6 +43,8 @@ require('../Functions/bdd.php');
 			{
 				case "rp":
 					header("location:../Rp/profile.php");
+				case "candidat":
+					header("location:../Candidat/profile.php");
 
 			}
 
