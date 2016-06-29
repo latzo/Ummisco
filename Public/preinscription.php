@@ -16,7 +16,7 @@ function check(deb,fin)
 	//alert(inputs[4].value);
 	for (var i = deb ; i <= fin ; i++) {
 
-		if(i>=24 && i<=39)
+		if(i>35 && i<=39)
 		{
 			continue;
 		}
@@ -179,7 +179,7 @@ function check(deb,fin)
 							<p>There is a problem that we need to fix. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
 						</div>-->
 						<div class="callout callout-success">
-							<h4>Preinscription Réussie!</h4>
+							<h4>Votre Préincription a été bien prise en compte!</h4>
 							<p>Veuillez suivre les prochaines étapes.</p>
 						</div>
 						<div class="callout callout-info">

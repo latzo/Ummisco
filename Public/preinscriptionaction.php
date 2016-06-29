@@ -17,6 +17,56 @@ function test_input($data) {
 	return $data;
 }
 
+function enregistreFichier($nomFichier,$actorid)
+{
+	if(isset($_FILES[$nomFichier]) AND $_FILES[$nomFichier]['error']==0)
+	{
+
+
+		// Testons si le fichier n'est pas trop gros
+		if ($_FILES[$nomFichier]['size'] <= 100000)
+		{
+
+
+			$infosfichier =pathinfo($_FILES[$nomFichier]['name']);
+			$extension_upload = $infosfichier['extension'];
+			$extensions_autorisees = array('pdf', 'docx');
+			$d=basename($_FILES[$nomFichier]['name']);
+			$genreFichier=substr($nomFichier,4);
+			$nomFichierToSave='file'.$genreFichier.'.'.$extension_upload;
+			$dossierUser='../UserFiles/User'.$actorid;
+			if (in_array($extension_upload,$extensions_autorisees))
+			{
+
+				//si le dossier n'existe pas, on le cree
+				if(!is_dir($dossierUser))
+				{
+
+					//on cree le dossier
+					if(mkdir($dossierUser,0733,true))
+					{
+
+						//puis on y met le fichier
+						//echo "dossier cree";
+						move_uploaded_file($_FILES[$nomFichier]['tmp_name'], $dossierUser.'/'.$nomFichierToSave);
+
+					}
+				}
+				else
+				{
+					move_uploaded_file($_FILES[$nomFichier]['tmp_name'], $dossierUser.'/'.$nomFichierToSave);
+					//echo "ok";
+				}
+
+			}
+
+
+		}
+
+	}
+
+}
+
 
 if(isValid())
 {
@@ -219,6 +269,15 @@ if(isValid())
 	$lastcandidatid = $bdd->lastInsertId();
 
 
+	//Gestion des fichiers
+	enregistreFichier('fileBac',$lastcandidatid);
+	enregistreFichier('fileDiplome2',$lastcandidatid);
+	enregistreFichier('fileDiplome3',$lastcandidatid);
+	enregistreFichier('fileDiplome4',$lastcandidatid);
+	enregistreFichier('fileDiplome5',$lastcandidatid);
+	enregistreFichier('fileVisiteMedicale',$lastcandidatid);
+
+
 	// Insertion des diplomes dans la table diplome
 	//Prise en compte du diplome du Bac seulement pour le moment
 
@@ -230,68 +289,16 @@ if(isValid())
 	$req->closeCursor();
 
 
-	//Gestion des fichiers
-
-	function enregistreFichier($nomFichier,$actorid)
-	{
-		if(isset($_FILES[$nomFichier]) AND $_FILES[$nomFichier]['error']==0)
-		{
+	
 
 
-			// Testons si le fichier n'est pas trop gros
-			if ($_FILES[$nomFichier]['size'] <= 100000)
-			{
+	
 
-
-				$infosfichier =pathinfo($_FILES[$nomFichier]['name']);
-				$extension_upload = $infosfichier['extension'];
-				$extensions_autorisees = array('pdf', 'docx');
-				$d=basename($_FILES[$nomFichier]['name']);
-				$genreFichier=substr($nomFichier,4);
-				$nomFichierToSave='file'.$genreFichier.'.'.$extension_upload;
-				$dossierUser='../UserFiles/User'.$actorid;
-				if (in_array($extension_upload,$extensions_autorisees))
-				{
-
-					//si le dossier n'existe pas, on le cree
-					if(!is_dir($dossierUser))
-					{
-
-						//on cree le dossier
-						if(mkdir($dossierUser,0733,true))
-						{
-
-							//puis on y met le fichier
-							//echo "dossier cree";
-							move_uploaded_file($_FILES[$nomFichier]['tmp_name'], $dossierUser.'/'.$nomFichierToSave);
-
-						}
-					}
-					else
-					{
-						move_uploaded_file($_FILES[$nomFichier]['tmp_name'], $dossierUser.'/'.$nomFichierToSave);
-						//echo "ok";
-					}
-
-				}
-
-
-			}
-
-		}
-
-	}
-
-	enregistreFichier('fileBac',2);
-	enregistreFichier('fileDiplome2',2);
-	enregistreFichier('fileDiplome3',2);
-	enregistreFichier('fileDiplome4',2);
-	enregistreFichier('fileDiplome5',2);
-	enregistreFichier('fileVisiteMedicale',2);
-
-
-
-	header("location:preinscription?action=succes.php");
+	//Tentative d'envoi de mail
+	
+	
+	//Redirection vers la page success
+	header("location:preinscription.php?action=success");
 	
 
 }
