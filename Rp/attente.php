@@ -1,6 +1,7 @@
 <?php
 session_start();
-$nomPage = "Preinscription";
-$page='content/principalecontent.php';
+$nomPage = "Liste d'attente";
+$page='content/attentecontent.php';
+$activeLA="active";
 require_once('../includes/profileRp.php');
-session_destroy();
+

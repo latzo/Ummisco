@@ -1,7 +1,10 @@
 <?php
 require '../Functions/bdd.php';
 $bdd=connexion();
-$req=$bdd->query('SELECT * FROM candidat,ummisco_actor WHERE candidat.actor_id=ummisco_actor.id');
+$req=$bdd->query('SELECT candidat.id,ine,nom,prenom,datSoumission,valide 
+                    FROM candidat,ummisco_actor 
+                    WHERE candidat.actor_id=ummisco_actor.id 
+                    AND candidat.valide=1');
 if(isset($_SESSION['flashBag']))
 {
     echo $_SESSION['flashBag'];
@@ -42,41 +45,53 @@ if(isset($_SESSION['flashBag']))
                         $datSoumission = $candidat['datSoumission'];
                         $statut = $candidat['valide'] == 1 ? "<span class='label label-success'>Validé</span>" : "<span class='label label-warning'>En Attente</span>";
                         ?>
-                    <tr>
-                        <td><?php echo $ine; ?></td>
-                        <td><?php echo $nom; ?></td>
-                        <td><?php echo $datSoumission; ?></td>
-                        <td><?php echo $statut; ?></td>
-                        <td>
-                            <a href=<?php echo "voircandidat.php?id=".$id ?> class="">
+                        <tr>
+                            <td><?php echo $ine; ?></td>
+                            <td><?php echo $nom; ?></td>
+                            <td><?php echo $datSoumission; ?></td>
+                            <td><?php echo $statut; ?></td>
+                            <td>
+                                <a href="<?php echo "voircandidat.php?id=".$id; ?>" class="table-link text-blue">
                                 <span class="fa-stack info">
                                     <i class="fa fa-square fa-stack-2x"></i>
                                     <i class="fa fa-search  fa-stack-1x fa-inverse"></i>
                                 </span>
-                            </a>
-                            &nbsp;
-                            <a href="#" class="">
+                                </a>
+                                &nbsp;
+                                <a href="#" class="table-link text-gray">
                                 <span class="fa-stack info">
                                     <i class="fa fa-square fa-stack-2x"></i>
                                     <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
                                 </span>
-                            </a>
-                            &nbsp;
-                            <?php
-                            if($candidat['valide']==0) {
-                                ?>
-                                <a href="<?php echo "validercandidat.php?id=".$id?>" class="table-link text-success">
+                                </a>
+                                &nbsp;
+                                <?php
+                                if($candidat['valide']==0)
+                                {
+                                    ?>
+                                    <a href="<?php echo "validercandidat.php?id=".$id."&action=validate"; ?>" class="table-link text-success">
                                 <span class="fa-stack">
                                     <i class="fa fa-square fa-stack-2x"></i>
                                     <i class="fa fa-check fa-stack-1x fa-inverse"></i>
                                 </span>
-                                </a>
-                                <?php
-                            }
-                            ?>
-                        </td>
-                    </tr>
-                    <?php
+                                    </a>
+                                    <?php
+                                }
+                                else
+                                {
+                                    ?>
+                                    <a href="<?php echo "validercandidat.php?id=".$id."&action=unvalidate"; ?>" class="table-link text-danger">
+                                <span class="fa-stack">
+                                    <i class="fa fa-square fa-stack-2x"></i>
+                                    <i class="fa fa-close fa-stack-1x fa-inverse"></i>
+                                </span>
+                                    </a>
+                                    <?php
+                                }
+                                ?>
+                            </td>
+                        </tr>
+                        <?php
                     }
                     $req->closeCursor();
                     ?>

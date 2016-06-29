@@ -1,6 +1,7 @@
 <?php
 session_start();
-$nomPage = "Preinscription";
-$page='content/validerpreinscontent.php';
+$nomPage = "Liste Principale";
+$page='content/principalecontent.php';
+$activeLP="active";
 require_once('../includes/profileRp.php');
-session_destroy();
+
