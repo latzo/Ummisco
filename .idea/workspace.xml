@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ffd40dc-6fa2-4651-ad53-f42b4cab658d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/avatar04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/avatar2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/avatar3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/avatar5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/boxed-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/boxed-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/credit/american-express.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/credit/cirrus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/credit/mastercard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/credit/mestro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/credit/paypal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/credit/paypal2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/credit/visa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/default-50x50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/photo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/photo2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/photo3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/photo4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/user1-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/user2-160x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/user3-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/user4-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/user5-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/user6-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/user7-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/user8-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rp/content/profilecontent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rp/profile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rp/validerpreinscription.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/AdminLTE.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/AdminLTE.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/_all-skins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/_all-skins.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-black-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-black-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-black.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-black.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-blue-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-blue-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-blue.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-green-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-green-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-green.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-purple-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-purple-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-purple.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-red-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-red-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-red.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-yellow-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-yellow-light.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-yellow.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/js/app.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/js/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/js/pages/dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/AdminLTE/js/pages/dashboard2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
+    <ignored path="Ummisco.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Ummisco" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="ummisco-0.5.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/ummisco-0.5.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="19" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ummisco-0.6.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/ummisco-0.6.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5729">
+              <caret line="282" column="27" selection-start-line="282" selection-start-column="27" selection-end-line="282" selection-end-column="27" />
+              <folding>
+                <marker date="1467042913604" expanded="true" signature="13515:13723" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profilecontent.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rp/content/profilecontent.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1127">
+              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#sup#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validerpreinscription.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Rp/validerpreinscription.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rp/profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminLTE.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/AdminLTE/css/AdminLTE.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="6" column="541" selection-start-line="6" selection-start-column="541" selection-end-line="6" selection-end-column="541" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user2-160x160.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/AdminLTE/img/user2-160x160.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user2-160x160.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/Templates/AdminLTE-2.3.0/dist/img/user2-160x160.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/includes/basenav.php" />
+        <option value="$PROJECT_DIR$/Functions/bdd.php" />
+        <option value="$PROJECT_DIR$/Public/preinscription.php" />
+        <option value="$PROJECT_DIR$/Public/preinscriptionaction.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Public/connexion.php" />
+        <option value="$PROJECT_DIR$/db/ummisco-0.5.sql" />
+        <option value="$PROJECT_DIR$/db/ummisco-0.6.sql" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Rp/index.php" />
+        <option value="$PROJECT_DIR$/Rp/profile.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserFiles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Functions" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdminLTE" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdminLTE" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors..ignore files" />
+    <property name="settings.editor.splitter.proportion" value="0.28994083" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="185" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="227" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="229" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1236" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="186" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="227" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="228" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1236" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Ummisco\dist\AdminLTE" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Ummisco\Rp\content" />
+      <recent name="C:\wamp\www\Ummisco\includes" />
+      <recent name="C:\wamp\www\Ummisco\Rp" />
+      <recent name="C:\wamp\www\Ummisco\Public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.preinscription.php">
+    <configuration default="false" name="preinscription.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Ummisco/Public/preinscription.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.preinscription.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.preinscription.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ffd40dc-6fa2-4651-ad53-f42b4cab658d" name="Default" comment="" />
+      <created>1466972293181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1466972293181</updated>
+      <workItem from="1466972305604" duration="3404000" />
+      <workItem from="1466975855370" duration="15764000" />
+      <workItem from="1467023762235" duration="15065000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34233000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18898489" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33150986" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23434125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33150986" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18898489" sideWeight="0.50570965" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33150986" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18898489" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23434125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18898489" sideWeight="0.50570965" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Public/preinscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10672">
+          <caret line="464" column="32" selection-start-line="464" selection-start-column="32" selection-end-line="464" selection-end-column="32" />
+          <folding>
+            <element signature="e#24327#26166#0#HTML" expanded="false" />
+            <element signature="e#26189#27470#0#HTML" expanded="false" />
+            <element signature="e#27493#28434#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/preinscriptionaction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1466991780263" expanded="true" signature="3190:3232" ph="INSERT INTO adresse... " />
+            <marker date="1466991780263" expanded="true" signature="3545:3838" ph="INSERT INTO ummisco_actor... " />
+            <marker date="1466991780263" expanded="true" signature="4006:4125" ph="INSERT INTO bourse... " />
+            <marker date="1466991780263" expanded="true" signature="4305:4347" ph="INSERT INTO adresse... " />
+            <marker date="1466991780263" expanded="true" signature="4633:4771" ph="INSERT INTO responsable... " />
+            <marker date="1466991780263" expanded="true" signature="4941:5002" ph="SELECT id FR... departement" />
+            <marker date="1466991780263" expanded="true" signature="5642:6087" ph="INSERT INTO candidat... " />
+            <marker date="1466991780263" expanded="true" signature="6379:6533" ph="INSERT INTO diplome... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/bdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1467025307401" expanded="true" signature="267:335" ph="select id fr... ummisco_actor" />
+            <marker date="1467025307401" expanded="true" signature="678:733" ph="select discr... ummisco_actor" />
+            <marker date="1467025307401" expanded="true" signature="953:1103" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="965:1021" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="965:1042" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1054:1103" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1263:1415" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1275:1332" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1275:1353" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1365:1415" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1526:1697" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1540:1602" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1540:1625" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1639:1669" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1639:1697" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/preinscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24327#26166#0#HTML" expanded="false" />
+            <element signature="e#26189#27470#0#HTML" expanded="false" />
+            <element signature="e#27493#28434#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/preinscriptionaction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1466991780263" expanded="true" signature="3190:3232" ph="INSERT INTO adresse... " />
+            <marker date="1466991780263" expanded="true" signature="3545:3838" ph="INSERT INTO ummisco_actor... " />
+            <marker date="1466991780263" expanded="true" signature="4006:4125" ph="INSERT INTO bourse... " />
+            <marker date="1466991780263" expanded="true" signature="4305:4347" ph="INSERT INTO adresse... " />
+            <marker date="1466991780263" expanded="true" signature="4633:4771" ph="INSERT INTO responsable... " />
+            <marker date="1466991780263" expanded="true" signature="4941:5002" ph="SELECT id FR... departement" />
+            <marker date="1466991780263" expanded="true" signature="5642:6087" ph="INSERT INTO candidat... " />
+            <marker date="1466991780263" expanded="true" signature="6379:6533" ph="INSERT INTO diplome... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="196" column="18" selection-start-line="196" selection-start-column="18" selection-end-line="196" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/bootstrap/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="770" column="31" selection-start-line="770" selection-start-column="31" selection-end-line="770" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/inscrirejournaliste.php" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/preinscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="348" column="38" selection-start-line="348" selection-start-column="38" selection-end-line="348" selection-end-column="38" />
+          <folding>
+            <element signature="e#24327#26166#0#HTML" expanded="false" />
+            <element signature="e#26189#27470#0#HTML" expanded="false" />
+            <element signature="e#27493#28434#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/basenav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="27" column="124" selection-start-line="27" selection-start-column="124" selection-end-line="27" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-625">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <marker date="1467025307401" expanded="true" signature="267:335" ph="select id fr... ummisco_actor" />
+            <marker date="1467025307401" expanded="true" signature="678:733" ph="select discr... ummisco_actor" />
+            <marker date="1467025307401" expanded="true" signature="953:1103" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="965:1021" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="965:1042" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1054:1103" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1263:1415" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1275:1332" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1275:1353" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1365:1415" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1526:1697" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1540:1602" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1540:1625" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1639:1669" ph="..." />
+            <marker date="1467025307401" expanded="true" signature="1639:1697" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/preinscriptionaction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1682">
+          <caret line="249" column="30" selection-start-line="249" selection-start-column="30" selection-end-line="249" selection-end-column="30" />
+          <folding>
+            <marker date="1466991780263" expanded="true" signature="3190:3232" ph="INSERT INTO adresse... " />
+            <marker date="1466991780263" expanded="true" signature="3545:3838" ph="INSERT INTO ummisco_actor... " />
+            <marker date="1466991780263" expanded="true" signature="4006:4125" ph="INSERT INTO bourse... " />
+            <marker date="1466991780263" expanded="true" signature="4305:4347" ph="INSERT INTO adresse... " />
+            <marker date="1466991780263" expanded="true" signature="4633:4771" ph="INSERT INTO responsable... " />
+            <marker date="1466991780263" expanded="true" signature="4941:5002" ph="SELECT id FR... departement" />
+            <marker date="1466991780263" expanded="true" signature="5642:6087" ph="INSERT INTO candidat... " />
+            <marker date="1466991780263" expanded="true" signature="6379:6533" ph="INSERT INTO diplome... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/bdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/ummisco-0.5.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/ummisco-0.6.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-red.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-black-light.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Templates/AdminLTE-2.3.0/dist/img/user2-160x160.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/AdminLTE/img/user2-160x160.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/AdminLTE/css/AdminLTE.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="6" column="541" selection-start-line="6" selection-start-column="541" selection-end-line="6" selection-end-column="541" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5729">
+          <caret line="282" column="27" selection-start-line="282" selection-start-column="27" selection-end-line="282" selection-end-column="27" />
+          <folding>
+            <marker date="1467042913604" expanded="true" signature="13515:13723" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/content/profilecontent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#sup#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/validerpreinscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

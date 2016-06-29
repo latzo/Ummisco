@@ -12,7 +12,7 @@ git checkout : Littéralement “check out” (retirer, rapatrier) une branche.
 git -b <NomBranche> : Crée une nouvelle branche dans votre dépôt.
 git log: affiche un journal des modifications au dépôt
 git clone <URL PROVENANT DE GITHUB> : clone un projet de votre système à partir de github
-git branch <nom_branche> : crée une copie de la branche master appelée
+git branch <nom_bgit ranche> : crée une copie de la branche master appelée
 git checkout <branch_name> : bascule vers nom_branche comme branche de travail
 git checkout master : bascule la branche vers master
 git branch -a : affiche les branches existantes pour le dépôt particulier
