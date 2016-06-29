@@ -159,6 +159,56 @@ function check(deb,fin)
 		</div>
 	</div><!--row header-->
 
+	<hr>
+
+	<?php
+	if(isset($_GET['action']))
+	{
+		if($_GET['action']=="success")
+		{
+			?>
+			<div class="col-md-12">
+				<div class="box box-default">
+					<div class="box-header with-border">
+						<i class="fa fa-bullhorn"></i>
+						<h3 class="box-title">Informations</h3>
+					</div><!-- /.box-header -->
+					<div class="box-body">
+						<!--<div class="callout callout-danger">
+							<h4>I am a danger callout!</h4>
+							<p>There is a problem that we need to fix. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+						</div>-->
+						<div class="callout callout-success">
+							<h4>Preinscription Réussie!</h4>
+							<p>Veuillez suivre les prochaines étapes.</p>
+						</div>
+						<div class="callout callout-info">
+							<h4>Prochaines étapes</h4>
+							<ol>
+								<li>
+									<p>
+										Un mail vous a ete envoye a l'adresse candidat@mail.com.
+										Veuillez suivre ce mail pour confirmer votre preinscription.
+									</p>
+								</li>
+								<li>
+									<p>
+										Veuillez vous rapprocher de la scolarite afin de completer votre preinscription.
+									</p>
+								</li>
+							</ol>
+						</div>
+						
+					</div><!-- /.box-body -->
+				</div><!-- /.box -->
+			</div><!-- /.col -->
+	<?php
+			die();
+		}
+	}
+	?>
+
+
 	<div class="row text-center">
 		<h3><span class="label label-success">DOSSIER D'INSCRIPTION ADMINISTRATIVE</span></h3>
 		<br/><br/>
@@ -169,7 +219,7 @@ function check(deb,fin)
 	
 	<div class="row col-md-12">
 		
-		<div class="panel with-nav-tabs panel-info panel-content">
+		<div class="panel nav-tabs-custom with-nav-tabs panel-primary panel-content">
 
             <div class="panel-heading clearfix">
                 <div class="pull-right">
@@ -677,7 +727,7 @@ function check(deb,fin)
                 	
                 	</div>
 
-				</form>          
+				</form>
 
             </div><!--fin panel-body-->
 
