@@ -3,13 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Mer 29 Juin 2016 à 05:37
+-- Généré le :  Mer 29 Juin 2016 à 14:27
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
-
-DROP DATABASE IF EXISTS ummisco;
-CREATE DATABASE ummisco;
-USE ummisco;
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -19,6 +15,9 @@ USE ummisco;
 --
 -- Base de données :  `ummisco`
 --
+DROP DATABASE IF EXISTS ummisco;
+CREATE DATABASE ummisco;
+USE ummisco;
 
 -- --------------------------------------------------------
 
@@ -31,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `adresse` (
   `ville` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
   `rueQuartier` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=9 ;
 
 --
 -- Contenu de la table `adresse`
@@ -41,7 +40,11 @@ INSERT INTO `adresse` (`id`, `ville`, `rueQuartier`) VALUES
 (1, 'Pikine Cite Sotiba Villa n 15', NULL),
 (2, 'Pikine Cite Sotiba', NULL),
 (3, 'Fann Hock Villa n 123', NULL),
-(4, 'Sacre Coueur 3 Villa n 123', NULL);
+(4, 'Sacre Coueur 3 Villa n 123', NULL),
+(5, 'Dieuppeul Derkle', NULL),
+(6, 'Dieuppeul Derkle Villa n 20', NULL),
+(7, 'Dieuppeul Derkle', NULL),
+(8, 'Dieuppeul Derkle Villa n 20', NULL);
 
 -- --------------------------------------------------------
 
@@ -56,7 +59,7 @@ CREATE TABLE IF NOT EXISTS `bourse` (
   `tauxExoneration` int(11) DEFAULT NULL,
   `organismeBoursier` varchar(200) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=5 ;
 
 --
 -- Contenu de la table `bourse`
@@ -64,7 +67,9 @@ CREATE TABLE IF NOT EXISTS `bourse` (
 
 INSERT INTO `bourse` (`id`, `montantBourse`, `natureBourse`, `tauxExoneration`, `organismeBoursier`) VALUES
 (1, 36000, 'Nationale', 10, NULL),
-(2, 18000, 'Nationale', 10, NULL);
+(2, 18000, 'Nationale', 10, NULL),
+(3, 36000, 'Nationale', 10, NULL),
+(4, 36000, 'Nationale', 10, NULL);
 
 -- --------------------------------------------------------
 
@@ -100,7 +105,7 @@ CREATE TABLE IF NOT EXISTS `candidat` (
   KEY `fk_Can_actor_id_Umm` (`actor_id`),
   KEY `fk_Can_responsable_id_Res` (`responsable_id`),
   KEY `fk_Can_id_classe_Cla` (`id_classe`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=5 ;
 
 --
 -- Contenu de la table `candidat`
@@ -108,7 +113,8 @@ CREATE TABLE IF NOT EXISTS `candidat` (
 
 INSERT INTO `candidat` (`id`, `ine`, `cni`, `statut`, `situationFamiliale`, `nbEnfants`, `datSoumission`, `categorieSocioPro`, `anneeEtude`, `cycle`, `nbInscriptAnt`, `redouble`, `aptitude`, `signature`, `statutBourse`, `valide`, `id_classe`, `departement_id`, `bourse_id`, `responsable_id`, `actor_id`) VALUES
 (1, '1765199501942', '17651995019942', 'Regime Normal', 'Celibataire', 0, '2016-06-27', 'Chomeur', 'Troisieme annee', 'DIC', 2, 0, 1, 'signature', 'Boursier', 1, NULL, 1, 1, 1, 1),
-(2, '17651995019220', '27581995078652', 'Regime Normal', 'Celibataire', 0, '2016-06-29', 'Chomeur', 'Deuxieme annee', 'Master', 0, 0, 1, 'masignaturendsn', 'Boursier', 0, NULL, 1, 2, 1, 3);
+(2, '17651995019220', '27581995078652', 'Regime Normal', 'Celibataire', 0, '2016-06-29', 'Chomeur', 'Deuxieme annee', 'Master', 0, 0, 1, 'masignaturendsn', 'Boursier', 1, NULL, 1, 2, 1, 3),
+(3, '27651995019942', '261919940092', 'Regime Normal', 'Mariee', 0, '2016-06-29', 'Chomeur', 'Deuxieme annee', 'Master', 2, 0, 1, 'signature', 'Boursier', 1, NULL, 1, 3, 2, 4);
 
 -- --------------------------------------------------------
 
@@ -117,7 +123,7 @@ INSERT INTO `candidat` (`id`, `ine`, `cni`, `statut`, `situationFamiliale`, `nbE
 --
 
 CREATE TABLE IF NOT EXISTS `chercheur` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `nbPublications` int(11) NOT NULL,
   `actor_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
@@ -210,14 +216,15 @@ CREATE TABLE IF NOT EXISTS `diplome` (
   `candidat_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_Dip_candidat_id_Can` (`candidat_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=3 ;
 
 --
 -- Contenu de la table `diplome`
 --
 
 INSERT INTO `diplome` (`id`, `nomDiplome`, `mention`, `dateObtention`, `lieuObtention`, `candidat_id`) VALUES
-(1, 'Bac S2', 'Passable', 2013, 'Dakar', 1);
+(1, 'Bac S2', 'Passable', 2013, 'Dakar', 1),
+(2, 'Bac S2', 'Bien', 2010, 'Dakar', 4);
 
 -- --------------------------------------------------------
 
@@ -226,7 +233,7 @@ INSERT INTO `diplome` (`id`, `nomDiplome`, `mention`, `dateObtention`, `lieuObte
 --
 
 CREATE TABLE IF NOT EXISTS `enseignant_chercheur` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `nbPublications` int(11) NOT NULL,
   `actor_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
@@ -308,14 +315,16 @@ CREATE TABLE IF NOT EXISTS `responsable` (
   `adresse_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_Resp_adresse_id_Adr` (`adresse_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
 
 --
 -- Contenu de la table `responsable`
 --
 
 INSERT INTO `responsable` (`id`, `nom`, `prenom`, `email`, `numTel`, `boitePostale`, `adresse_id`) VALUES
-(1, 'Mbodj', 'Coumba', 'mbodjcoumba@gmail.com', '775396407', 'BP 48464 Dakar', 2);
+(1, 'Mbodj', 'Coumba', 'mbodjcoumba@gmail.com', '775396407', 'BP 48464 Dakar', 2),
+(2, 'Ndiaye', 'Doussouba', 'doussouba.ndiaye@yahoo.fr', '772152124', 'BP Dieuppeul Derkle', 6),
+(3, 'Ndiaye', 'Doussouba', 'doussouba.ndiaye@yahoo.fr', '772152124', 'BP Dieuppeul Derkle', 8);
 
 -- --------------------------------------------------------
 
@@ -374,7 +383,7 @@ CREATE TABLE IF NOT EXISTS `ummisco_actor` (
   `sexe` enum('Masculin','Feminin') COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `IDX_3DDB6FF44DE7DC5C` (`adresse_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=6 ;
 
 --
 -- Contenu de la table `ummisco_actor`
@@ -383,7 +392,8 @@ CREATE TABLE IF NOT EXISTS `ummisco_actor` (
 INSERT INTO `ummisco_actor` (`id`, `prenom`, `nom`, `datNaiss`, `lieuNaiss`, `paysNaiss`, `regionNaiss`, `nationalite`, `email`, `numTel`, `boitePostale`, `password`, `discr`, `adresse_id`, `sexe`) VALUES
 (1, 'Papa Latyr', 'Mbodj', '1995-03-15', 'Pikine', 'Senegal', 'Dakar', 'Senegalaise', 'latyr@esp.sn', '771798853', 'BP 8128 Dakar Fann', '482f7629a2511d23ef4e958b13a5ba54bdba06f2', 'candidat', 1, 'Masculin'),
 (2, 'Alassane', 'Bah', '1975-12-08', 'Dakar', 'Senegal', 'Dakar', 'Senegalaise', 'alassane.bah@gmail.com', '775005050', 'BP 4848 Dakar Fann', 'ff7200d846e54c8d4d633e3a3a17e3b73990fce5', 'rp', 3, 'Masculin'),
-(3, 'Ndeye Sokhna', 'Ndiaye', '1995-06-14', 'Dakar', 'Senegal', 'Dakar', 'Senegalaise', 'soxna95@gmail.com', '771750493', 'BP 1503 Dakar Fann', 'passer', 'candidat', 4, 'Feminin');
+(3, 'Ndeye Sokhna', 'Ndiaye', '1995-06-14', 'Dakar', 'Senegal', 'Dakar', 'Senegalaise', 'soxna95@gmail.com', '771750493', 'BP 1503 Dakar Fann', 'passer', 'candidat', 4, 'Feminin'),
+(4, 'Mariama', 'Diop', '1994-01-07', 'Thies', 'Senegal', 'Thies', 'Senegalaise', 'mariamadiop@esp.sn', '777666415', 'BP 8128 Dakar Fann', '482f7629a2511d23ef4e958b13a5ba54bdba06f2', 'candidat', 5, 'Masculin');
 
 --
 -- Contraintes pour les tables exportées

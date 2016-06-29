@@ -196,10 +196,12 @@
         </div><!--fin panel-body-->
 
     </div><!--fin panel-content-->
-    <div class="text-right">
-        <a class="btn btn-success" href="">
-            <b>Modifier</b>
-        </a>
-    </div>
-
 </div><!--fin panel-entier-->
+<div class="text-right">
+    <a class="btn btn-danger" href="">
+        <b>Annuler Preinscription</b>
+    </a>
+    <a class="btn btn-success" href="">
+        <b>Modifier Preinscription</b>
+    </a>
+</div>

@@ -220,7 +220,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                       <a href="profile.php" class="btn btn-default btn-flat">Mon Profil</a>
                     </div>
                     <div class="pull-right">
-                      <a href="../Public/login.php" class="btn btn-default btn-flat">Deconnexion</a>
+                      <a href="../Public/deconnexion.php" class="btn btn-default btn-flat">Deconnexion</a>
                     </div>
                   </li>
                 </ul>
