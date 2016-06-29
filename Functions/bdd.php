@@ -17,3 +17,10 @@ function connexion()
 	return $bdd;
 }
 
+function getAllCandidats()
+{
+	$bdd = connexion();
+	$req = $bdd->prepare('SELECT * FROM candidat');
+	return $req;
+}
+
