@@ -1,3 +1,5 @@
 <?php
-$page = file_get_contents('content/profilecontent.php');
-require_once('../includes/profile.php');
+
+$nomPage = "Tableau de Bord";
+$page='content/profilecontent.php';
+require_once('../includes/profileRp.php');

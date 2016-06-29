@@ -225,7 +225,8 @@ if(isValid())
 		VALUES (:nomdiplome,:mention,:dateObtention,:lieuObtention,:candidat_id)');
 	$req->execute($donnees_diplome1);
 	$req->closeCursor();
-	
+
+	header("location:preinscriptionsucces.php");
 	
 	//Enregistrement des fichiers
 	//POur le mom, enregistrement du diplome du bac et du justificatif de la visite medicale

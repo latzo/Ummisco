@@ -249,8 +249,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <li class="treeview">
               <a href="#"><i class="fa fa-graduation-cap"></i><span>Gestion Preinscriptions</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle text-green"></i><span>Liste Principale</span></a></li>
-                <li><a href="#"><i class="fa fa-circle text-warning"></i><span>Liste En Attente</span></a></li>
+                  <li><a href="../Rp/validerpreinscription.php"><i class="fa fa-circle text-blue"></i><span>Liste Candidats</span></a></li>
+                  <li><a href="#"><i class="fa fa-circle text-green"></i><span>Liste Principale</span></a></li>
+                  <li><a href="#"><i class="fa fa-circle text-warning"></i><span>Liste En Attente</span></a></li>
 
               </ul>
             </li>
@@ -265,7 +266,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1>
-            Nom Page
+            <?php 
+            if(isset($nomPage))
+            {
+                echo $nomPage;
+            }
+            ?>
             <!--<small>Optional description</small>-->
           </h1>
           <!--<ol class="breadcrumb">
@@ -280,9 +286,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <?php 
             if(isset($page))
             {
-                echo $page;
+                require $page;
             }
-          
           ?>
 
         </section><!-- /.content -->
