@@ -6,6 +6,11 @@ $stylesheets = "<link rel='stylesheet' type='text/css' href='../dist/mycss/login
 $etatC='active';
 require_once('../includes/header.php');
 require_once('../includes/basenav.php');
+if(isset($_SESSION['flashBag']))
+{
+	echo $_SESSION['flashBag'];
+	unset($_SESSION['flashBag']);
+}
 ?>
 
 <br/><br/><br/>

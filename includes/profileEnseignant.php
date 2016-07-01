@@ -264,7 +264,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <ul class="sidebar-menu">
             <li class="header"></li>
             <!-- Optionally, you can add icons to the links -->
-            <li class="active"><a href="#"><i class="fa fa-user"></i> <span>Gestion Notes</span></a></li>-->
+            <li><a href="#"><i class="fa fa-file-text"></i> <span>Gestion Notes</span></a></li>-->
             <!--<li class="treeview <?php if(isset($activeLC)) echo $activeLC; if(isset($activeLP)) echo $activeLP; if(isset($activeLA)) echo $activeLA; ?>">
               <a href="#"><i class="fa fa-graduation-cap"></i><span>Gestion Preinscriptions</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">

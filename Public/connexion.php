@@ -47,6 +47,12 @@ require('../Functions/bdd.php');
 				case "candidat":
 					header("location:../Candidat/profile.php");
 					break;
+				case "enseignant":
+					header("location:../Enseignant/profile.php");
+					break;
+				default :
+					header("location:../includes/lockscreen.php");
+					break;
 
 			}
 

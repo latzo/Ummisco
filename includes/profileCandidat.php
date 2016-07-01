@@ -264,7 +264,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <ul class="sidebar-menu">
             <li class="header"></li>
             <!-- Optionally, you can add icons to the links -->
-            <li class=""><a href="mapreinscription.php"><i class="fa fa-book"></i> <span>Ma Preinscription</span></a></li>
+            <li class=""><a href="mapreinscription.php"><i class="fa fa-graduation-cap"></i> <span>Ma Preinscription</span></a></li>
             
             <!--<li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>-->
           </ul><!-- /.sidebar-menu -->

@@ -162,7 +162,7 @@ function check(deb,fin)
 	<hr>
 
 	<?php
-	if(isset($_GET['action']))
+	if(isset($_GET['action']) && isset($_GET['mail']))
 	{
 		if($_GET['action']=="success")
 		{
@@ -187,7 +187,8 @@ function check(deb,fin)
 							<ol>
 								<li>
 									<p>
-										Un mail vous a ete envoye a l'adresse candidat@mail.com.
+										Un mail vous a ete envoye a l'adresse <?php echo $_GET['mail']; ?>
+										<br>
 										Veuillez suivre ce mail pour confirmer votre preinscription.
 									</p>
 								</li>
