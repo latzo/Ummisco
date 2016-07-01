@@ -17,9 +17,9 @@
 -- Base de données :  `ummisco`
 --
 
-DROP DATABASE ummisco;
-CREATE DATABASE ummisco;
-USE ummisco;
+DROP DATABASE ummiscodb;
+CREATE DATABASE ummiscodb;
+USE ummiscodb;
 
 -- --------------------------------------------------------
 

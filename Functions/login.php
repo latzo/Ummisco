@@ -1,5 +1,5 @@
 <?php 
-require "db.php";
+require "database.php";
 
 if(isset($_POST))
 {
@@ -21,7 +21,7 @@ function login($login, $password)
 {
 	session_start();
 
-	$bdd = connect();
+	$bdd = connexion();
 	
 	$req = $bdd->prepare("SELECT * FROM ummisco_actor where email = :email and password = :password");
 	$params['email'] = $login;

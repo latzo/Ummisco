@@ -1,5 +1,5 @@
 <?php
-require '../Functions/bdd.php';
+require '../Functions/database.php';
 $bdd=connexion();
 $req=$bdd->query('SELECT * FROM candidat,ummisco_actor WHERE candidat.actor_id=ummisco_actor.id');
 if(isset($_GET['valide']))

@@ -19,7 +19,7 @@
 									<img class="img-responsive img-thumbnail mini" src="../dist/img/avatar.png" />
 								</div>
 								<hr>
-								<form class="form" action="../db/login.php" method="post">
+								<form class="form" action="../Functions/login.php" method="post">
 									<div class="form-group" >
 										<div class="col-xs-8 col-xs-offset-2 input-group input-group-lg">
 										  <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>

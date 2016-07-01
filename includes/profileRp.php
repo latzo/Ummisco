@@ -255,6 +255,47 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
               </ul>
             </li>
+            <li class="treeview">
+              <a href="#"><i class="fa  fa-calendar"></i><span>Planification des Cours</span><i class="fa fa-angle-left pull-right"></i></a>
+              <ul class="treeview-menu">
+                <li>
+                  <a href="#"><i class="fa fa-book"></i><span>Gestion des Cours</span><i class="fa fa-angle-left pull-right"></i></a>
+                  <ul class="treeview-menu">
+                    <li>
+                      <a href="../Rp/listeCours.php"><span>Liste des Cours</span></a>
+                    </li>
+                    <li>
+                      <a href="../Rp/ajouterCours.php"><span>Ajouter un Cours</span></a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-university"></i><span>Gestion des Matieres</span><i class="fa fa-angle-left pull-right"></i></a>
+                  <ul class="treeview-menu">
+                    <li>
+                      <a href="../Rp/listeMatiere.php"><span>Liste des Matieres</span></a>
+                    </li>
+                    <li>
+                      <a href="../Rp/ajouterMatiere.php"><span>Ajouter une Matiere</span></a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-university"></i><span>Gestion des UE</span><i class="fa fa-angle-left pull-right"></i></a>
+                  <ul class="treeview-menu">
+                    <li>
+                      <a href="../Rp/listeUe.php"><span>Liste des UE</span></a>
+                    </li>
+                    <li>
+                      <a href="../Rp/ajouterUe.php"><span>Ajouter une UE</span></a>
+                    </li>
+
+                  </ul>
+                </li>
+              </ul>
+            </li>
             <!--<li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>-->
           </ul><!-- /.sidebar-menu -->
         </section>
