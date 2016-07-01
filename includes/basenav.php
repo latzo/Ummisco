@@ -3,7 +3,8 @@
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="navbar-header">
           <a href="#" class="navbar-brand">
-            <img class='logo responsive' src="../dist/img/logo_ummisco.png">
+            <img class='logo  responsive' src="../dist/img/logo_ucad.png">
+              
           </a>
         </div>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">

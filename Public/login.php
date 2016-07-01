@@ -1,11 +1,12 @@
 <?php 
-	$title = 'Login' ;
-	$stylesheets = "<link rel='stylesheet' type='text/css' href='../dist/mycss/login.css'/>";
-	$etatC='active';
-	require_once('../includes/header.php');
-	require_once('../includes/basenav.php');
-	
- ?>
+session_start();
+session_destroy();
+$title = 'Login' ;
+$stylesheets = "<link rel='stylesheet' type='text/css' href='../dist/mycss/login.css'/>";
+$etatC='active';
+require_once('../includes/header.php');
+require_once('../includes/basenav.php');
+?>
 
 <br/><br/><br/>
 

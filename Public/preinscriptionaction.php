@@ -17,6 +17,56 @@ function test_input($data) {
 	return $data;
 }
 
+function enregistreFichier($nomFichier,$actorid)
+{
+	if(isset($_FILES[$nomFichier]) AND $_FILES[$nomFichier]['error']==0)
+	{
+
+
+		// Testons si le fichier n'est pas trop gros
+		if ($_FILES[$nomFichier]['size'] <= 100000)
+		{
+
+
+			$infosfichier =pathinfo($_FILES[$nomFichier]['name']);
+			$extension_upload = $infosfichier['extension'];
+			$extensions_autorisees = array('pdf', 'docx');
+			$d=basename($_FILES[$nomFichier]['name']);
+			$genreFichier=substr($nomFichier,4);
+			$nomFichierToSave='file'.$genreFichier.'.'.$extension_upload;
+			$dossierUser='../UserFiles/User'.$actorid;
+			if (in_array($extension_upload,$extensions_autorisees))
+			{
+
+				//si le dossier n'existe pas, on le cree
+				if(!is_dir($dossierUser))
+				{
+
+					//on cree le dossier
+					if(mkdir($dossierUser,0733,true))
+					{
+
+						//puis on y met le fichier
+						//echo "dossier cree";
+						move_uploaded_file($_FILES[$nomFichier]['tmp_name'], $dossierUser.'/'.$nomFichierToSave);
+
+					}
+				}
+				else
+				{
+					move_uploaded_file($_FILES[$nomFichier]['tmp_name'], $dossierUser.'/'.$nomFichierToSave);
+					//echo "ok";
+				}
+
+			}
+
+
+		}
+
+	}
+
+}
+
 
 if(isValid())
 {
@@ -139,6 +189,9 @@ if(isValid())
 	//var_dump($donnees_responsable);
 	//var_dump($donnees_adresse_responsable);
 
+
+	//Enregistrement dees donnees en bdd
+
 	$bdd;
 
 	$bdd = connexion();
@@ -216,6 +269,15 @@ if(isValid())
 	$lastcandidatid = $bdd->lastInsertId();
 
 
+	//Gestion des fichiers
+	enregistreFichier('fileBac',$lastcandidatid);
+	enregistreFichier('fileDiplome2',$lastcandidatid);
+	enregistreFichier('fileDiplome3',$lastcandidatid);
+	enregistreFichier('fileDiplome4',$lastcandidatid);
+	enregistreFichier('fileDiplome5',$lastcandidatid);
+	enregistreFichier('fileVisiteMedicale',$lastcandidatid);
+
+
 	// Insertion des diplomes dans la table diplome
 	//Prise en compte du diplome du Bac seulement pour le moment
 
@@ -226,42 +288,17 @@ if(isValid())
 	$req->execute($donnees_diplome1);
 	$req->closeCursor();
 
-	header("location:preinscriptionsucces.php");
+
 	
-	//Enregistrement des fichiers
-	//POur le mom, enregistrement du diplome du bac et du justificatif de la visite medicale
 
-	//Gestion du fichier du bac
-	//var_dump($_FILES);
 
-	/*if (isset($_FILES['fileBac']) AND $_FILES['fileBac']['error']== 0)
-	{
+	
 
-		// Testons si le fichier n'est pas trop gros
-        if ($_FILES['fileBac']['size'] <= 10000)
-        {
-			$infosfichier =pathinfo($_FILES['fileBac']['name']);
-			$extension_upload = $infosfichier['extension'];
-
-			$extensions_autorisees = array('pdf', 'docx');
-			$d=basename($_FILES['fileBac']['name']);
-			$nomImage='diplomeBac_'.$lastcandidatid.'.'.$extension_upload;
-			if (in_array($extension_upload,$extensions_autorisees))
-        	{
-				if(!is_dir('UserFiles/User'.$lastcandidatid))
-				{
-					//si le dossier a ete bien cree
-					if(mkdir('UserFiles/User'.$lastcandidatid,0733,true))
-					{
-						move_uploaded_file($_FILES['fileBac']['tmp_name'], 'dist/img/Journaliste/' .$nomImage);
-					}
-				}
-			}
-
-			
-		}
-
-	}*/
+	//Tentative d'envoi de mail
+	
+	
+	//Redirection vers la page success
+	header("location:preinscription.php?action=success");
 	
 
 }

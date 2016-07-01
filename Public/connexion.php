@@ -2,8 +2,6 @@
 session_start();
 require('../Functions/bdd.php');
 
-var_dump($_POST);
-
  if(isset($_POST['email']) && isset($_POST['password']) )
 			
 		
@@ -16,8 +14,10 @@ var_dump($_POST);
 		$pass_hache=sha1($_POST['password']);
 		$req=$bdd->prepare('select id from ummisco_actor where email= :login and password= :pass');
 		$req->execute(array(
-		'login'=>$login,
-		'pass'=>$pass_hache));
+			'login'=>$login,
+			'pass'=>$pass_hache,
+			)
+		);
 		$res=$req->fetch();
 		$id=$res['id'];
 		
@@ -28,79 +28,33 @@ var_dump($_POST);
 			
 			
 		}
-		else{
-			$req2=$bdd->prepare('select discr,nom,prenom from ummisco_actor where id=:id');
+		else
+		{
+			$req2=$bdd->prepare('select nom,prenom,discr from ummisco_actor where id=:id');
 			$req2->execute(array(
-			
-			'id'=>$id));
+				'id'=>$id,
+				)
+			);
 			$res2=$req2->fetch();
-			$discr=$res2['discr'];
-			$prenom=$res2['prenom'];
-			$nom=$res2['nom'];
-			
-			
-			 if($discr=="candidat")
-			 {
-				 echo "
-				 
-				  <html>
-					<head>
-						<title>Page candidat</title>
-						<meta charset='utf-8'>
-					</head>
-					<body>
-						<center><h2>Page du candidat ".$prenom." ".$nom;
-			    echo 	"</h2></center>
-					</body>
-				  </html>";
-				 
-				 
-			
-			}
-			else{
-				if($discr=="chercheur")
-				{
-				  echo "
-				 
-				  <html>
-					<head>
-						<title>Page chercheur</title>
-						<meta charset='utf-8'>
-					</head>
-					<body>
-						<center><h2>Page du chercheur ".$prenom." ".$nom;
-				  echo 	"</h2></center>
-					</body>
-				 </html>";
-				}
-				else{
-					  echo "
-				 
-						<html>
-							<head>
-								<title>Page enseignant</title>
-								<meta charset='utf-8'>
-							</head>
-							<body>
-								<center><h2>Page de l'enseignant(e) ".$prenom." ".$nom;
-					echo 		"</h2></center>
-							</body>
-						</html>";
-				}
-			}
-			 
+			$_SESSION['UserId']=$id;
+			$_SESSION['UserDiscr']=$res2['discr'];
+			$_SESSION['UserName']=$res2['prenom'].' '.$res2['nom'];
+			switch ($_SESSION['UserDiscr'])
+			{
+				case "rp":
+					header("location:../Rp/profile.php");
+					break;
+				case "candidat":
+					header("location:../Candidat/profile.php");
+					break;
 
-			$_SESSION['id']=$res['id'];
-			$_SESSION['login']=$login;
-			
-			 
-			
-			
+			}
+
 		}
-		 }
-		
-		   else{
-			 echo 'Aucun login ou mot de passe defini!';
-		   }
+ }
+ else
+ {
+	 echo 'Aucun login ou mot de passe defini!';
+ }
 		
 ?>

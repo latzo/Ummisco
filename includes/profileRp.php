@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 2 | Starter</title>
+    <title>Profil-Ummisco</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -15,7 +15,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Font Awesome -->
     <link rel="stylesheet" href="../dist/font-awesome/css/font-awesome.min.css">
     <!-- Ionicons -->
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="../dist/ionicons/css/ionicons.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="../dist/AdminLTE/css/AdminLTE.min.css">
     <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
@@ -24,11 +24,30 @@ scratch. This page gets rid of all links and provides the needed markup only.
     -->
     <link rel="stylesheet" href="../dist/AdminLTE/css/skins/skin-blue.min.css">
 
+      <link rel="stylesheet" href="../dist/AdminLTE/css/skins/skin-blue.min.css">
+      <link rel="apple-touch-icon" sizes="57x57" href="../dist/favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="../dist/favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="../dist/favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="../dist/favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="../dist/favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="../dist/favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="../dist/favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../dist/favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="../dist/favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="../dist/favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="../dist/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="../dist/favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="../dist/favicon/favicon-16x16.png">
+      <link rel="manifest" href="../dist/favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="../dist/favicon/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="../dist/AdminLTE/js/html5shiv.min.js"></script>
+        <script src="../dist/AdminLTE/js/respond.min.js"></script>
     <![endif]-->
   </head>
   <!--
@@ -172,15 +191,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <!-- The user image in the navbar-->
                   <img src="../dist/AdminLTE/img/user2-160x160.jpg" class="user-image" alt="User Image">
                   <!-- hidden-xs hides the username on small devices so only the image appears. -->
-                  <span class="hidden-xs">Alassane Bah</span>
+                  <span class="hidden-xs"><?php if(isset($_SESSION['UserName'])) echo $_SESSION['UserName']; ?></span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- The user image in the menu -->
                   <li class="user-header">
                     <img src="../dist/AdminLTE/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     <p>
-                      Alassane Bah - Enseignant Chercheur
-                      <small>Responsable Pedagogique</small>
+                        <?php if(isset($_SESSION['UserName'])) echo $_SESSION['UserName']; ?> - Enseignant Chercheur
+                        <small>Responsable Pedagogique</small>
                     </p>
                   </li>
                   <!-- Menu Body -->
@@ -198,10 +217,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <!-- Menu Footer-->
                   <li class="user-footer">
                     <div class="pull-left">
-                      <a href="#" class="btn btn-default btn-flat">Mon Profil</a>
+                      <a href="profile.php" class="btn btn-default btn-flat">Mon Profil</a>
                     </div>
                     <div class="pull-right">
-                      <a href="#" class="btn btn-default btn-flat">Deconnexion</a>
+                      <a href="../Public/deconnexion.php" class="btn btn-default btn-flat">Deconnexion</a>
                     </div>
                   </li>
                 </ul>
@@ -224,7 +243,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <img src="../dist/AdminLTE/img/user2-160x160.jpg" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
-              <p>Alassane Bah</p>
+              <p><?php if(isset($_SESSION['UserName'])) echo $_SESSION['UserName']; ?></p>
               <!-- Status -->
               <a href="#"><i class="fa fa-circle text-success"></i> En ligne</a>
             </div>
@@ -246,13 +265,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <li class="header"></li>
             <!-- Optionally, you can add icons to the links -->
             <!--<li class="active"><a href="#"><i class="fa fa-user"></i> <span>Mon Profil ²</span></a></li>-->
-            <li class="treeview">
+            <li class="treeview <?php if(isset($activeLC)) echo $activeLC; if(isset($activeLP)) echo $activeLP; if(isset($activeLA)) echo $activeLA; ?>">
               <a href="#"><i class="fa fa-graduation-cap"></i><span>Gestion Preinscriptions</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
-                  <li><a href="../Rp/validerpreinscription.php"><i class="fa fa-circle text-blue"></i><span>Liste Candidats</span></a></li>
-                  <li><a href="#"><i class="fa fa-circle text-green"></i><span>Liste Principale</span></a></li>
-                  <li><a href="#"><i class="fa fa-circle text-warning"></i><span>Liste En Attente</span></a></li>
-
+                  <li class="<?php if(isset($activeLC)) echo $activeLC; ?>"><a href="../Rp/candidats.php"><i class="fa fa-circle text-blue"></i><span>Liste Candidats</span></a></li>
+                  <li class="<?php if(isset($activeLP)) echo $activeLP; ?>"><a href="../Rp/principale.php"><i class="fa fa-circle text-green"></i><span>Liste Principale</span></a></li>
+                  <li class="<?php if(isset($activeLA)) echo $activeLA; ?>"><a href="../Rp/attente.php"><i class="fa fa-circle text-warning"></i><span>Liste En Attente</span></a></li>
               </ul>
             </li>
             <li class="treeview">
@@ -342,7 +360,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         </div>
         <!-- Default to the left -->
-        <strong>Copyright &copy; 2016 <a href="#">Ummisco</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2016 <a href="#">Ummisco Groupe4</a>.</strong> Tous Droits Reserves.
       </footer>
 
       <!-- Control Sidebar -->
