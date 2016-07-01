@@ -1,5 +1,5 @@
 <?php
-require '../Functions/database.php';
+require '../Functions/bdd.php';
 $bdd=connexion();
 $req=$bdd->query('SELECT candidat.id,ine,nom,prenom,datSoumission,valide 
                     FROM candidat,ummisco_actor 

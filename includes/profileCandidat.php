@@ -199,7 +199,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     <img src="../dist/AdminLTE/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     <p>
                         <?php if(isset($_SESSION['UserName'])) echo $_SESSION['UserName']; ?>
-                        <small>Candidat id</small>
+                        <small>Candidat <?php if(isset($_SESSION['UserId'])) echo $_SESSION['UserId']; ?></small>
                     </p>
                   </li>
                   <!-- Menu Body -->

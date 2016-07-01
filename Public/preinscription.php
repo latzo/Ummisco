@@ -187,7 +187,7 @@ function check(deb,fin)
 							<ol>
 								<li>
 									<p>
-										Un mail vous a ete envoye a l'adresse <?php echo $_GET['mail']; ?>
+										Un mail a été envoyé à l'adresse <?php echo $_GET['mail']; ?>
 										<br>
 										Veuillez suivre ce mail pour confirmer votre preinscription.
 									</p>
@@ -390,7 +390,8 @@ function check(deb,fin)
 								<label class="col-xs-6 control-label" for="departement">Departement :</label>
 								<div class="col-xs-6">
 									<select class="form-control" name="departement">
-										<option value="Genie Informatique" selected>Genie Informatique</option>
+										<option value="Ummisco" selected>Ummisco</option>
+										<option value="Genie Informatique" >Genie Informatique</option>
 										<option value="Genie Chimique" >Genie Chimique</option>
 										<option value="Genie Mecanique" >Genie Mecanique</option>
 										<option value="Genie Electrique" >Genie Electrique</option>								
@@ -404,8 +405,8 @@ function check(deb,fin)
 								<label class="col-xs-6 control-label" for="option">Option :</label>
 								<div class="col-xs-6">
 									<select class="form-control" name="option">
-										<option value="Informatique" selected>Informatique</option>
-										<option value="Genie Chimique" >Telecoms</option>
+										<option value="Syscom" selected>Syscom</option>
+										<!--<option value="Genie Chimique" >Telecoms</option>-->
 									</select>
 								</div>
 								<br>
@@ -413,7 +414,7 @@ function check(deb,fin)
 							<br>
 							<br>					
 							<div class="form-group col-xs-6">
-								<input type="number" min="0" max="2" name="nbInscriptAnt" placeholder="Nombre d'Inscriptions Anterieures" class="form-control" onkeyup="check(15,17)">
+								<input type="number" min="0" max="5" name="nbInscriptAnt" placeholder="Nombre d'Inscriptions Anterieures" class="form-control" onkeyup="check(15,17)">
 								<br/>
 							</div>
 							<div class="form-group col-xs-6">
@@ -714,9 +715,21 @@ function check(deb,fin)
 							<input type="checkbox" onchange="check(47,47)">
 							<label> Je soussigne sur l'honneur l'exactitude des renseignements fournis</label>
 							<br>
-	                    	<br>                    		                
+	                    	<br>
+							<div class="col-lg-3 col-lg-offset-1">
+								<div class="fileinput fileinput-new" data-provides="fileinput" data-name="fileavatar" id="fileavatar">
+									<div class="fileinput-new thumbnail" style="width: 200px; height: 200px;">
+										<img src="../dist/img/avatar.png" alt="Photo d'identite">
+									</div>
+									<div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 2000px;"></div>
+									<div>
+										<span class="btn btn-default btn-file"><span class="fileinput-new">Choisir image</span><span class="fileinput-exists">Changer</span><input type="file" name="fileavatar"></span>
+										<a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Enlever</a>
+									</div>
+								</div>
+							</div>
+							<br>
 	                        <div class="row">
-								<br>
 	                            <div class="col-lg-12">
 	                                <div class="pull-right">
 	                                    <button class="btn btn-default previous-tab" type="button"><span class="glyphicon glyphicon-chevron-left"></span> Precedent</button>

@@ -6,14 +6,12 @@ $stylesheets = "<link rel='stylesheet' type='text/css' href='../dist/mycss/login
 $etatC='active';
 require_once('../includes/header.php');
 require_once('../includes/basenav.php');
-if(isset($_SESSION['flashBag']))
-{
-	echo $_SESSION['flashBag'];
-	unset($_SESSION['flashBag']);
-}
+
 ?>
 
 <br/><br/><br/>
+	<br/><br/><br/>
+	<br/><br/>
 
 <div class="container content">
 		<div class="row content">
@@ -25,11 +23,11 @@ if(isset($_SESSION['flashBag']))
 									<img class="img-responsive img-thumbnail mini" src="../dist/img/avatar.png" />
 								</div>
 								<hr>
-								<form class="form" action="../Functions/login.php" method="post">
+								<form class="form" action="connexion.php" method="post">
 									<div class="form-group" >
 										<div class="col-xs-8 col-xs-offset-2 input-group input-group-lg">
 										  <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-										  <input style="width:295px;padding:30px;border-radius:0px"  type="text" class="form-control" placeholder="Login" name="login">
+										  <input style="width:295px;padding:30px;border-radius:0px"  type="text" class="form-control" placeholder="Login" name="email">
 										</div>
 									</div>
 									<br/>
@@ -66,6 +64,11 @@ if(isset($_SESSION['flashBag']))
 		</div><!--row content-->
 	</div><!--container content-->
 
-<?php 
+<?php
+if(isset($_SESSION['flashBag']))
+{
+	echo $_SESSION['flashBag'];
+	unset($_SESSION['flashBag']);
+}
 	require_once('../includes/footer.php');
  ?>

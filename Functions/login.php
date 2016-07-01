@@ -1,5 +1,5 @@
 <?php 
-require "database.php";
+require "bdd.php";
 
 if(isset($_POST))
 {

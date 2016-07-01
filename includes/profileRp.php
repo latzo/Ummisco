@@ -265,6 +265,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <li class="header"></li>
             <!-- Optionally, you can add icons to the links -->
             <!--<li class="active"><a href="#"><i class="fa fa-user"></i> <span>Mon Profil ²</span></a></li>-->
+            <!--Gestion des Preinscriptions -->
             <li class="treeview <?php if(isset($activeLC)) echo $activeLC; if(isset($activeLP)) echo $activeLP; if(isset($activeLA)) echo $activeLA; ?>">
               <a href="#"><i class="fa fa-graduation-cap"></i><span>Gestion Preinscriptions</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
@@ -273,45 +274,42 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <li class="<?php if(isset($activeLA)) echo $activeLA; ?>"><a href="../Rp/attente.php"><i class="fa fa-circle text-warning"></i><span>Liste En Attente</span></a></li>
               </ul>
             </li>
-            <li class="treeview">
-              <a href="#"><i class="fa  fa-calendar"></i><span>Planification des Cours</span><i class="fa fa-angle-left pull-right"></i></a>
+            <!--Gestion des Ue -->
+            <li>
+              <a href="#"><i class="fa fa-university"></i><span>Gestion des UE</span><i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
                 <li>
-                  <a href="#"><i class="fa fa-book"></i><span>Gestion des Cours</span><i class="fa fa-angle-left pull-right"></i></a>
-                  <ul class="treeview-menu">
-                    <li>
-                      <a href="../Rp/listeCours.php"><span>Liste des Cours</span></a>
-                    </li>
-                    <li>
-                      <a href="../Rp/ajouterCours.php"><span>Ajouter un Cours</span></a>
-                    </li>
-
-                  </ul>
+                  <a href="../Rp/listeUe.php"><span>Liste des UE</span></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-university"></i><span>Gestion des Matieres</span><i class="fa fa-angle-left pull-right"></i></a>
-                  <ul class="treeview-menu">
-                    <li>
-                      <a href="../Rp/listeMatiere.php"><span>Liste des Matieres</span></a>
-                    </li>
-                    <li>
-                      <a href="../Rp/ajouterMatiere.php"><span>Ajouter une Matiere</span></a>
-                    </li>
+                  <a href="../Rp/ajouterUe.php"><span>Ajouter une UE</span></a>
+                </li>
 
-                  </ul>
+              </ul>
+            </li>
+            <!--Gestion des matieres -->
+            <li>
+              <a href="#"><i class="fa fa-university"></i><span>Gestion des Matieres</span><i class="fa fa-angle-left pull-right"></i></a>
+              <ul class="treeview-menu">
+                <li>
+                  <a href="../Rp/listeMatiere.php"><span>Liste des Matieres</span></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-university"></i><span>Gestion des UE</span><i class="fa fa-angle-left pull-right"></i></a>
-                  <ul class="treeview-menu">
-                    <li>
-                      <a href="../Rp/listeUe.php"><span>Liste des UE</span></a>
-                    </li>
-                    <li>
-                      <a href="../Rp/ajouterUe.php"><span>Ajouter une UE</span></a>
-                    </li>
-
-                  </ul>
+                  <a href="../Rp/ajouterMatiere.php"><span>Ajouter une Matiere</span></a>
                 </li>
+              </ul>
+            </li>
+            <!--Gestion des Cours -->
+            <li class="treeview">
+              <a href="#"><i class="fa fa-book"></i><span>Gestion des Cours</span><i class="fa fa-angle-left pull-right"></i></a>
+              <ul class="treeview-menu">
+                <li>
+                  <a href="../Rp/listeCours.php"><span>Liste des Cours</span></a>
+                </li>
+                <li>
+                  <a href="../Rp/ajouterCours.php"><span>Ajouter un Cours</span></a>
+                </li>
+
               </ul>
             </li>
             <!--<li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>-->

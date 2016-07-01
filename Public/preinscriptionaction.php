@@ -30,7 +30,7 @@ function enregistreFichier($nomFichier,$actorid)
 
 			$infosfichier =pathinfo($_FILES[$nomFichier]['name']);
 			$extension_upload = $infosfichier['extension'];
-			$extensions_autorisees = array('pdf', 'docx');
+			$extensions_autorisees = array('pdf', 'docx', 'png', 'jpg', 'gif', 'jpeg');
 			$d=basename($_FILES[$nomFichier]['name']);
 			$genreFichier=substr($nomFichier,4);
 			$nomFichierToSave='file'.$genreFichier.'.'.$extension_upload;
@@ -270,35 +270,106 @@ if(isValid())
 
 
 	//Gestion des fichiers
-	enregistreFichier('fileBac',$lastcandidatid);
-	enregistreFichier('fileDiplome2',$lastcandidatid);
-	enregistreFichier('fileDiplome3',$lastcandidatid);
-	enregistreFichier('fileDiplome4',$lastcandidatid);
-	enregistreFichier('fileDiplome5',$lastcandidatid);
-	enregistreFichier('fileVisiteMedicale',$lastcandidatid);
-
+	enregistreFichier('fileBac',$lastummiscoactorid);
+	enregistreFichier('fileDiplome2',$lastummiscoactorid);
+	enregistreFichier('fileDiplome3',$lastummiscoactorid);
+	enregistreFichier('fileDiplome4',$lastummiscoactorid);
+	enregistreFichier('fileDiplome5',$lastummiscoactorid);
+	enregistreFichier('fileVisiteMedicale',$lastummiscoactorid);
+	enregistreFichier('fileavatar',$lastummiscoactorid);
 
 	// Insertion des diplomes dans la table diplome
 	//Prise en compte du diplome du Bac seulement pour le moment
 
 	$donnees_diplome1['candidat_id']=$lastcandidatid;
+	$donnees_diplome2['candidat_id']=$lastcandidatid;
+	$donnees_diplome3['candidat_id']=$lastcandidatid;
+	$donnees_diplome4['candidat_id']=$lastcandidatid;
+	$donnees_diplome5['candidat_id']=$lastcandidatid;
 	
 	$req = $bdd->prepare('INSERT INTO diplome(nomDiplome,mention,dateObtention,lieuObtention,candidat_id)
 		VALUES (:nomdiplome,:mention,:dateObtention,:lieuObtention,:candidat_id)');
 	$req->execute($donnees_diplome1);
 	$req->closeCursor();
 
+	//Diplome2
+	$req = $bdd->prepare('INSERT INTO diplome(nomDiplome,mention,dateObtention,lieuObtention,candidat_id)
+		VALUES (:nomdiplome,:mention,:dateObtention,:lieuObtention,:candidat_id)');
+	$req->execute($donnees_diplome2);
+	$req->closeCursor();
 
-	
+	//Diplome3
+	$req = $bdd->prepare('INSERT INTO diplome(nomDiplome,mention,dateObtention,lieuObtention,candidat_id)
+		VALUES (:nomdiplome,:mention,:dateObtention,:lieuObtention,:candidat_id)');
+	$req->execute($donnees_diplome3);
+	$req->closeCursor();
 
+	//Diplome4
+	$req = $bdd->prepare('INSERT INTO diplome(nomDiplome,mention,dateObtention,lieuObtention,candidat_id)
+		VALUES (:nomdiplome,:mention,:dateObtention,:lieuObtention,:candidat_id)');
+	$req->execute($donnees_diplome4);
+	$req->closeCursor();
 
-	
+	//Diplome5
+	$req = $bdd->prepare('INSERT INTO diplome(nomDiplome,mention,dateObtention,lieuObtention,candidat_id)
+		VALUES (:nomdiplome,:mention,:dateObtention,:lieuObtention,:candidat_id)');
+	$req->execute($donnees_diplome5);
+	$req->closeCursor();
 
-	//Tentative d'envoi de mail
-	
-	
+	$message =
+		"
+<div class=\"box box-info\">
+<div class=\"box-header with-border\">
+<h3 class=\"box-title\">Ummisco</h3>
+</div><!-- /.box-header -->
+<div class=\"box-body\">
+    <p>
+        Bonjour. Vous avez eu à candidater au niveau du Master Syscom de l'Ummisco.
+        Afin que votre candidature soit officialisé, veuilez suivre le lien ci-dessus.
+    </p>
+</div><!-- /.box-body -->
+<div class=\"box-footer\">
+    <a href=\"http://localhost/ummisco/public/firstconnexion.php?email=".$donnees_ummiscoactor['email']."&password=passer\">Activer mon compte</a>
+</div><!-- /.box-footer -->
+
+</div><!-- /.box -->
+";
+
+//Tentative d'envoi de mail
+	require '../config/phpmailer/vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
+	$destinataire = $donnees_ummiscoactor['email']; //le destinataire
+//Contenu
+
+	$content= $message; //le contenu de message html
+	$PhpMailer = new PHPMailer();
+	$PhpMailer->CharSet =  "utf-8";
+	$PhpMailer ->IsSMTP();
+	$PhpMailer ->SMTPAuth = true;
+	$PhpMailer ->Username = "ummisco.ucad.mastersyscom@gmail.com";
+	$PhpMailer ->Password = "repasser";
+	$PhpMailer ->SMTPSecure = "ssl";
+	$PhpMailer ->Host = "smtp.gmail.com";
+	$PhpMailer ->Port = "465";
+	$PhpMailer ->setFrom('ummisco.ucad.mastersyscom@gmail.com', 'Ummisco');
+	$PhpMailer ->Subject  =  'Validation preinscription ummisco';
+	$PhpMailer ->IsHTML(true);
+	$PhpMailer ->AddAddress($destinataire);
+	$body=$content;
+	$PhpMailer ->msgHTML($body);
+	$PhpMailer ->Send();
+
+	/*{
+		echo "Message envoyé avec succes";
+	}
+	else
+	{
+		echo "ERREUR : Message non envoyé";
+	}
+
+	*/
+
 	//Redirection vers la page success
-	header("location:preinscription.php?action=success");
+	header("location:preinscription.php?action=success&mail=".$donnees_ummiscoactor['email']);
 	
 
 }

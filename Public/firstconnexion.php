@@ -2,7 +2,7 @@
 session_start();
 require('../Functions/bdd.php');
 
- if(isset($_POST['email']) && isset($_POST['password']) )
+ if(isset($_GET['email']) && isset($_GET['password']) )
 			
 		
  {
@@ -10,8 +10,8 @@ require('../Functions/bdd.php');
 		 
 	   $bdd = connexion();
 		
-		$login=$_POST['email'];
-		$pass_hache=sha1($_POST['password']);
+		$login=$_GET['email'];
+		$pass_hache=sha1($_GET['password']);
 		$req=$bdd->prepare('select id from ummisco_actor where email= :login and password= :pass');
 		$req->execute(array(
 			'login'=>$login,
@@ -60,7 +60,7 @@ require('../Functions/bdd.php');
  }
  else
  {
-	 echo 'Aucun login ou mot de passe defini!';
+	 header('location:../includes/lockscreen.php');
  }
 		
 ?>

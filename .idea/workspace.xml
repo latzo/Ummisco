@@ -2,25 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ffd40dc-6fa2-4651-ad53-f42b4cab658d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Enseignant/content/notescontent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Enseignant/content/profilecontent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Enseignant/notes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Enseignant/profile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/ummisco-0.9.sql" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/preinscriptionaction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/testfile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/AdminLTE/img/avatar.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/AdminLTE/img/user1-128x128.jpg" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/user1-128x128.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/AdminLTE/img/user2-160x160.jpg" afterPath="$PROJECT_DIR$/dist/AdminLTE/img/user2-160x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/firstconnexion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/preinscriptionaction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/testmail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rp/content/voircandidatcontent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rp/voircandidat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/ummiscodata.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/jasny/jasny-bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/jasny/jasny-bootstrap.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Functions/database.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Candidat/content/modif_preinscr.php" afterPath="$PROJECT_DIR$/Candidat/modif_preinscr.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Candidat/content/mapreinscriptioncontent.php" afterPath="$PROJECT_DIR$/Candidat/content/mapreinscriptioncontent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Candidat/mapreinscription.php" afterPath="$PROJECT_DIR$/Candidat/mapreinscription.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/connexion.php" afterPath="$PROJECT_DIR$/Public/connexion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/deconnexion.php" afterPath="$PROJECT_DIR$/Public/deconnexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/cours.php" afterPath="$PROJECT_DIR$/Functions/cours.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/enseignant.php" afterPath="$PROJECT_DIR$/Functions/enseignant.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/login.php" afterPath="$PROJECT_DIR$/Functions/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/matiere.php" afterPath="$PROJECT_DIR$/Functions/matiere.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/ue.php" afterPath="$PROJECT_DIR$/Functions/ue.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/ummiscoActor.php" afterPath="$PROJECT_DIR$/Functions/ummiscoActor.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/login.php" afterPath="$PROJECT_DIR$/Public/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/matiere.php" afterPath="$PROJECT_DIR$/Public/matiere.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/preinscription.php" afterPath="$PROJECT_DIR$/Public/preinscription.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/ummisco-0.8.sql" afterPath="$PROJECT_DIR$/db/ummisco-0.8.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rp/ajouterCours.php" afterPath="$PROJECT_DIR$/Rp/ajouterCours.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rp/ajouterMatiere.php" afterPath="$PROJECT_DIR$/Rp/ajouterMatiere.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rp/ajouterUe.php" afterPath="$PROJECT_DIR$/Rp/ajouterUe.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rp/attente.php" afterPath="$PROJECT_DIR$/Rp/attente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rp/candidats.php" afterPath="$PROJECT_DIR$/Rp/candidats.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rp/content/candidatscontent.php" afterPath="$PROJECT_DIR$/Rp/content/candidatscontent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rp/content/profilecontent.php" afterPath="$PROJECT_DIR$/Rp/content/profilecontent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rp/listeCours.php" afterPath="$PROJECT_DIR$/Rp/listeCours.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rp/listeMatiere.php" afterPath="$PROJECT_DIR$/Rp/listeMatiere.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rp/listeUe.php" afterPath="$PROJECT_DIR$/Rp/listeUe.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rp/principale.php" afterPath="$PROJECT_DIR$/Rp/principale.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.php" afterPath="$PROJECT_DIR$/includes/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.php" afterPath="$PROJECT_DIR$/includes/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/profileCandidat.php" afterPath="$PROJECT_DIR$/includes/profileCandidat.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/profileEnseignant.php" afterPath="$PROJECT_DIR$/includes/profileEnseignant.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/profileRp.php" afterPath="$PROJECT_DIR$/includes/profileRp.php" />
     </list>
     <ignored path="Ummisco.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,34 +70,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="mapreinscription.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mapreinscription.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Candidat/mapreinscription.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validercandidat.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rp/validercandidat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
-              <caret line="39" column="24" selection-start-line="34" selection-start-column="12" selection-end-line="39" selection-end-column="24" />
-              <folding>
-                <marker date="1467166312832" expanded="true" signature="1199:1444" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -84,44 +83,69 @@
       <file leaf-file-name="preinscription.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/preinscription.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4370">
-              <caret line="190" column="44" selection-start-line="190" selection-start-column="44" selection-end-line="190" selection-end-column="44" />
+            <state relative-caret-position="747">
+              <caret line="195" column="39" selection-start-line="195" selection-start-column="39" selection-end-line="195" selection-end-column="39" />
+              <folding>
+                <element signature="e#29398#29434#0#HTML" expanded="true" />
+                <element signature="e#29587#29632#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="principalecontent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rp/content/principalecontent.php">
+      <file leaf-file-name="connexion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/connexion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="1495">
+              <caret line="65" column="2" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
               <folding>
-                <marker date="1467166514526" expanded="true" signature="74:282" ph="SELECT candi... candidat" />
+                <marker date="1467206769608" expanded="true" signature="248:316" ph="select id fr... ummisco_actor" />
+                <marker date="1467206769608" expanded="true" signature="672:727" ph="select nom,p... ummisco_actor" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deconnexion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/deconnexion.php">
+      <file leaf-file-name="firstconnexion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/firstconnexion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="460">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding>
-                <marker date="1467315421716" expanded="true" signature="161:366" ph="..." />
-                <marker date="1467315421716" expanded="true" signature="161:408" ph="..." />
-                <marker date="1467315421716" expanded="true" signature="161:440" ph="..." />
+                <marker date="1467361722974" expanded="true" signature="244:312" ph="select id fr... ummisco_actor" />
+                <marker date="1467361722974" expanded="true" signature="668:723" ph="select nom,p... ummisco_actor" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/mycss/login.css">
+      <file leaf-file-name="profilecontent.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rp/content/profilecontent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="506">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <marker date="1467359230130" expanded="true" signature="74:96" ph="SELECT * FRO... candidat" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/phpmailer/vendor/composer/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,30 +154,58 @@
       <file leaf-file-name="mapreinscriptioncontent.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Candidat/content/mapreinscriptioncontent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="195" column="35" selection-start-line="195" selection-start-column="35" selection-end-line="195" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="candidats.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rp/candidats.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="candidatscontent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rp/content/candidatscontent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="1" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="494">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding>
-                <marker date="1467166583870" expanded="true" signature="74:239" ph="SELECT candi... candidat" />
+                <marker date="1467366309086" expanded="true" signature="114:154" ph="select * fro... ummisco_actor" />
+                <marker date="1467366309086" expanded="true" signature="234:275" ph="select * fro... candidat" />
+                <marker date="1467366309086" expanded="true" signature="399:433" ph="select * fro... adresse" />
+                <marker date="1467366309086" expanded="true" signature="516:554" ph="select * fro... responsable" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preinscriptionaction.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public/preinscriptionaction.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="597">
+              <caret line="367" column="0" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
+              <folding>
+                <element signature="n#enregistreFichier#0;n#!!top" expanded="false" />
+                <marker date="1467367096936" expanded="true" signature="4386:4428" ph="INSERT INTO adresse... " />
+                <marker date="1467367096936" expanded="true" signature="4741:5034" ph="INSERT INTO ummisco_actor... " />
+                <marker date="1467367096936" expanded="true" signature="5202:5321" ph="INSERT INTO bourse... " />
+                <marker date="1467367096936" expanded="true" signature="5501:5543" ph="INSERT INTO adresse... " />
+                <marker date="1467367096936" expanded="true" signature="5829:5967" ph="INSERT INTO responsable... " />
+                <marker date="1467367096936" expanded="true" signature="6137:6198" ph="SELECT id FR... departement" />
+                <marker date="1467367096936" expanded="true" signature="6838:7283" ph="INSERT INTO candidat... " />
+                <marker date="1467367096936" expanded="true" signature="8195:8349" ph="INSERT INTO diplome... " />
+                <marker date="1467367096936" expanded="true" signature="8446:8600" ph="INSERT INTO diplome... " />
+                <marker date="1467367096936" expanded="true" signature="8697:8851" ph="INSERT INTO diplome... " />
+                <marker date="1467367096936" expanded="true" signature="8948:9102" ph="INSERT INTO diplome... " />
+                <marker date="1467367096936" expanded="true" signature="9199:9353" ph="INSERT INTO diplome... " />
+                <marker date="1467367096936" expanded="true" signature="9458:10011" ph="..." />
+                <marker date="1467367096936" expanded="true" signature="9497:9541" ph="..." />
+                <marker date="1467367096936" expanded="true" signature="9587:9782" ph="..." />
+                <marker date="1467367096936" expanded="true" signature="9595:9775" ph="..." />
+                <marker date="1467367096936" expanded="true" signature="9828:9982" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testmail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/testmail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="49" column="1" selection-start-line="1" selection-start-column="0" selection-end-line="49" selection-end-column="1" />
+              <folding>
+                <marker date="1467363263021" expanded="true" signature="93:646" ph="..." />
+                <marker date="1467363263021" expanded="true" signature="132:176" ph="..." />
+                <marker date="1467363263021" expanded="true" signature="222:417" ph="..." />
+                <marker date="1467363263021" expanded="true" signature="230:410" ph="..." />
+                <marker date="1467363263021" expanded="true" signature="463:617" ph="..." />
               </folding>
             </state>
           </provider>
@@ -167,56 +219,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/config.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/db/ummisco-0.5.sql" />
-        <option value="$PROJECT_DIR$/db/ummisco-0.6.sql" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Rp/index.php" />
-        <option value="$PROJECT_DIR$/includes/profile.php" />
-        <option value="$PROJECT_DIR$/Functions/bdd.php" />
-        <option value="$PROJECT_DIR$/Rp/content/validercandidat.php" />
-        <option value="$PROJECT_DIR$/Rp/content/validercandidatcontent.php" />
-        <option value="$PROJECT_DIR$/Rp/content/validerpreinscontent.php" />
-        <option value="$PROJECT_DIR$/Rp/validerpreinscription.php" />
-        <option value="$PROJECT_DIR$/Rp/validercandidat.php" />
-        <option value="$PROJECT_DIR$/Rp/content/principalecontent.php" />
-        <option value="$PROJECT_DIR$/Rp/content/candidatscontent.php" />
-        <option value="$PROJECT_DIR$/Rp/content/attentecontent.php" />
-        <option value="$PROJECT_DIR$/Rp/profile.php" />
-        <option value="$PROJECT_DIR$/Rp/principale.php" />
-        <option value="$PROJECT_DIR$/Rp/candidats.php" />
-        <option value="$PROJECT_DIR$/Rp/attente.php" />
-        <option value="$PROJECT_DIR$/dist/AdminLTE/js/html5shiv.min.js" />
-        <option value="$PROJECT_DIR$/dist/AdminLTE/js/respond.min.js" />
-        <option value="$PROJECT_DIR$/Rp/content/profilecontent.php" />
         <option value="$PROJECT_DIR$/Public/testfile.php" />
-        <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/dist/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/includes/basenav.php" />
         <option value="$PROJECT_DIR$/dist/mycss/preinscription.css" />
-        <option value="$PROJECT_DIR$/includes/footer.php" />
         <option value="$PROJECT_DIR$/dist/AdminLTE/css/AdminLTE.min.css" />
         <option value="$PROJECT_DIR$/includes/lockscreen.php" />
         <option value="$PROJECT_DIR$/Candidat/profile.php" />
-        <option value="$PROJECT_DIR$/includes/profileRp.php" />
         <option value="$PROJECT_DIR$/Candidat/content/profilecontent.php" />
-        <option value="$PROJECT_DIR$/Candidat/content/mapreinscriptioncontent.php" />
-        <option value="$PROJECT_DIR$/Public/preinscription.php" />
-        <option value="$PROJECT_DIR$/includes/profileCandidat.php" />
         <option value="$PROJECT_DIR$/Enseignant/profile.php" />
         <option value="$PROJECT_DIR$/Public/connexion.php" />
-        <option value="$PROJECT_DIR$/includes/profileEnseignant.php" />
         <option value="$PROJECT_DIR$/db/ummisco-0.8.sql" />
         <option value="$PROJECT_DIR$/db/ummisco-0.9.sql" />
         <option value="$PROJECT_DIR$/Enseignant/notes.php" />
         <option value="$PROJECT_DIR$/Enseignant/content/notescontent.php" />
         <option value="$PROJECT_DIR$/db/ummisco-0.7.sql" />
-        <option value="$PROJECT_DIR$/Candidat/mapreinscription.php" />
-        <option value="$PROJECT_DIR$/Public/login.php" />
         <option value="$PROJECT_DIR$/Public/deconnexion.php" />
-        <option value="$PROJECT_DIR$/Public/preinscriptionaction.php" />
         <option value="$PROJECT_DIR$/dist/mycss/login.css" />
+        <option value="$PROJECT_DIR$/Functions/cours.php" />
+        <option value="$PROJECT_DIR$/Rp/content/candidatscontent.php" />
+        <option value="$PROJECT_DIR$/Functions/enseignant.php" />
+        <option value="$PROJECT_DIR$/Functions/login.php" />
+        <option value="$PROJECT_DIR$/Functions/ue.php" />
+        <option value="$PROJECT_DIR$/Functions/ummiscoActor.php" />
+        <option value="$PROJECT_DIR$/Functions/matiere.php" />
+        <option value="$PROJECT_DIR$/Public/matiere.php" />
+        <option value="$PROJECT_DIR$/includes/profileRp.php" />
+        <option value="$PROJECT_DIR$/Rp/principale.php" />
+        <option value="$PROJECT_DIR$/Rp/listeUe.php" />
+        <option value="$PROJECT_DIR$/Rp/listeMatiere.php" />
+        <option value="$PROJECT_DIR$/Rp/listeCours.php" />
+        <option value="$PROJECT_DIR$/Rp/candidats.php" />
+        <option value="$PROJECT_DIR$/Rp/attente.php" />
+        <option value="$PROJECT_DIR$/Rp/ajouterUe.php" />
+        <option value="$PROJECT_DIR$/Rp/ajouterMatiere.php" />
+        <option value="$PROJECT_DIR$/Rp/ajouterCours.php" />
+        <option value="$PROJECT_DIR$/includes/profileEnseignant.php" />
+        <option value="$PROJECT_DIR$/includes/profileCandidat.php" />
+        <option value="$PROJECT_DIR$/Rp/voircandidat.php" />
+        <option value="$PROJECT_DIR$/Candidat/mapreinscription.php" />
+        <option value="$PROJECT_DIR$/Candidat/modif_preinscr.php" />
+        <option value="$PROJECT_DIR$/Rp/content/voircandidatcontent.php" />
+        <option value="$PROJECT_DIR$/Public/login.php" />
+        <option value="$PROJECT_DIR$/includes/header.php" />
+        <option value="$PROJECT_DIR$/includes/footer.php" />
+        <option value="$PROJECT_DIR$/Public/preinscription.php" />
+        <option value="$PROJECT_DIR$/Rp/content/profilecontent.php" />
+        <option value="$PROJECT_DIR$/Public/test.php" />
+        <option value="$PROJECT_DIR$/Public/firstconnexion.php" />
+        <option value="$PROJECT_DIR$/Public/testmail.php" />
+        <option value="$PROJECT_DIR$/Candidat/content/mapreinscriptioncontent.php" />
+        <option value="$PROJECT_DIR$/Public/preinscriptionaction.php" />
       </list>
     </option>
   </component>
@@ -292,6 +345,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="UserFiles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserFiles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="User6" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -443,6 +514,42 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jasny" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="db" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -521,19 +628,19 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\Ummisco\db" />
-      <recent name="C:\wamp\www\Ummisco\includes" />
-      <recent name="C:\wamp\www\Ummisco\dist" />
-      <recent name="C:\wamp\www\Ummisco\Rp\content" />
-      <recent name="C:\wamp\www\Ummisco\Rp" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\Ummisco\db" />
       <recent name="C:\wamp\www\Ummisco\Rp\content" />
       <recent name="C:\wamp\www\Ummisco\includes" />
       <recent name="C:\wamp\www\Ummisco\Rp" />
       <recent name="C:\wamp\www\Ummisco\Public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Ummisco\Public" />
+      <recent name="C:\wamp\www\Ummisco\config" />
+      <recent name="C:\wamp\www\Ummisco\dist\jasny" />
+      <recent name="C:\wamp\www\Ummisco\Candidat" />
+      <recent name="C:\wamp\www\Ummisco\Rp" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.preinscription.php">
@@ -598,11 +705,12 @@
       <workItem from="1467237728347" duration="2883000" />
       <workItem from="1467284263407" duration="6134000" />
       <workItem from="1467320354208" duration="946000" />
+      <workItem from="1467337581097" duration="26983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103617000" />
+    <option name="totallyTimeSpent" value="130600000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -617,21 +725,21 @@
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2149028" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21436284" sideWeight="0.49015316" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33150986" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23434125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33150986" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18898489" sideWeight="0.50570965" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33041576" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21436284" sideWeight="0.5098468" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -668,137 +776,41 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/AdminLTE/css/skins/skin-black-light.min.css">
+    <entry file="file://$PROJECT_DIR$/Functions/ue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="23">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding>
+            <marker date="1467339372632" expanded="true" signature="476:537" ph="insert into ue... " />
+            <marker date="1467339372632" expanded="true" signature="667:698" ph="select * fro... ue" />
+            <marker date="1467339372632" expanded="true" signature="902:918" ph="select * fro... ue" />
+            <marker date="1467339372632" expanded="true" signature="1173:1242" ph="update ue se... " />
+            <marker date="1467339372632" expanded="true" signature="1401:1430" ph="delete from " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Templates/AdminLTE-2.3.0/dist/img/user2-160x160.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/AdminLTE/img/user2-160x160.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/bdd.php">
+    <entry file="file://$PROJECT_DIR$/Functions/ummiscoActor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1467339372966" expanded="true" signature="105:147" ph="SELECT * FRO... ummisco_actor" />
+            <marker date="1467339372966" expanded="true" signature="374:401" ph="SELECT * FRO... ummisco_actor" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rp/content/validercandidatcontent.php" />
-    <entry file="file://$PROJECT_DIR$/Rp/content/attentecontent.php">
+    <entry file="file://$PROJECT_DIR$/db/ummisco-0.8.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/AdminLTE/img/user1-128x128.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rp/attente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/ionicons/css/ionicons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="13" column="624" selection-start-line="13" selection-start-column="624" selection-end-line="13" selection-end-column="624" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/ionicons/css/ionicons.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/AdminLTE/js/html5shiv.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="2532" selection-start-line="3" selection-start-column="2532" selection-end-line="3" selection-end-column="2532" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/AdminLTE/js/respond.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="4204" selection-start-line="4" selection-start-column="4204" selection-end-line="4" selection-end-column="4204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/ummisco-0.6.sql" />
-    <entry file="file://$PROJECT_DIR$/dist/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="6764" column="11" selection-start-line="6764" selection-start-column="11" selection-end-line="6764" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/basenav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/mycss/preinscription.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="283" column="3" selection-start-line="283" selection-start-column="3" selection-end-line="283" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/AdminLTE/css/AdminLTE.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="6" column="1651" selection-start-line="6" selection-start-column="1651" selection-end-line="6" selection-end-column="1651" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="38" column="51" selection-start-line="21" selection-start-column="8" selection-end-line="38" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/lockscreen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rp/principale.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="-1315">
+          <caret line="395" column="209" selection-start-line="391" selection-start-column="0" selection-end-line="395" selection-end-column="209" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -806,151 +818,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rp/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rp/content/profilecontent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1679">
-          <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/profileRp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-676">
-          <caret line="222" column="52" selection-start-line="222" selection-start-column="52" selection-end-line="222" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/testfile.php" />
-    <entry file="file://$PROJECT_DIR$/Enseignant/content/profilecontent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Candidat/content/profilecontent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Enseignant/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/connexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1495">
-          <caret line="65" column="2" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/ummisco-0.5.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/ummisco-0.9.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/profileCandidat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4390">
-          <caret line="270" column="18" selection-start-line="270" selection-start-column="18" selection-end-line="270" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/profileEnseignant.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="266" column="15" selection-start-line="266" selection-start-column="15" selection-end-line="266" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Enseignant/notes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Enseignant/content/notescontent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/ummisco-0.8.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6005">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/ummisco-0.7.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Candidat/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="596">
+          <caret line="313" column="17" selection-start-line="313" selection-start-column="17" selection-end-line="313" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/preinscription.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4370">
-          <caret line="190" column="44" selection-start-line="190" selection-start-column="44" selection-end-line="190" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rp/content/principalecontent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <marker date="1467166514526" expanded="true" signature="74:282" ph="SELECT candi... candidat" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rp/validercandidat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
+        <state relative-caret-position="831">
           <caret line="39" column="24" selection-start-line="34" selection-start-column="12" selection-end-line="39" selection-end-column="24" />
           <folding>
             <marker date="1467166312832" expanded="true" signature="1199:1444" ph="..." />
@@ -958,66 +840,416 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/deconnexion.php">
+    <entry file="file://$PROJECT_DIR$/Rp/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <marker date="1467315421716" expanded="true" signature="161:366" ph="..." />
-            <marker date="1467315421716" expanded="true" signature="161:408" ph="..." />
-            <marker date="1467315421716" expanded="true" signature="161:440" ph="..." />
-          </folding>
+        <state relative-caret-position="115">
+          <caret line="5" column="1" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/listeUe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/listeMatiere.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/listeCours.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rp/candidats.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="115">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rp/content/candidatscontent.php">
+    <entry file="file://$PROJECT_DIR$/Rp/attente.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="1" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="115">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/ajouterUe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/ajouterMatiere.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/ajouterCours.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/ummiscodata.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/profileEnseignant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="201" column="28" selection-start-line="201" selection-start-column="28" selection-end-line="201" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/profileCandidat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="201" column="99" selection-start-line="201" selection-start-column="99" selection-end-line="201" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/principale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/listeUe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/ue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/cours.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/listeCours.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/matiere.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/matiere.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-657">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
           <folding>
-            <marker date="1467166583870" expanded="true" signature="74:239" ph="SELECT candi... candidat" />
+            <marker date="1467339451130" expanded="true" signature="524:636" ph="insert into matiere... " />
+            <marker date="1467339451130" expanded="true" signature="772:808" ph="select * fro... matiere" />
+            <marker date="1467339451130" expanded="true" signature="1018:1039" ph="select * fro... matiere" />
+            <marker date="1467339451130" expanded="true" signature="1300:1422" ph="update matie... " />
+            <marker date="1467339451130" expanded="true" signature="1586:1620" ph="delete from " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/login.php">
+    <entry file="file://$PROJECT_DIR$/Public/modif_preinscr.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/preinscriptionaction.php" />
-    <entry file="file://$PROJECT_DIR$/dist/mycss/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="-1034">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Candidat/content/mapreinscriptioncontent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="195" column="35" selection-start-line="195" selection-start-column="35" selection-end-line="195" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/listeMatiere.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-813">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Candidat/content/profilecontent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Candidat/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Candidat/annuler_preinscr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <marker date="1467337492642" expanded="true" signature="124:162" ph="delete from " />
+            <marker date="1467337492642" expanded="true" signature="247:295" ph="select respo... candidat" />
+            <marker date="1467337492642" expanded="true" signature="442:478" ph="delete from " />
+            <marker date="1467337492642" expanded="true" signature="567:606" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Candidat/modif_preinscr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <marker date="1467350362944" expanded="true" signature="1105:1348" ph="update ummis... " />
+            <marker date="1467350362944" expanded="true" signature="1790:1961" ph="update candi... " />
+            <marker date="1467350362944" expanded="true" signature="2274:2322" ph="select respo... candidat" />
+            <marker date="1467350362944" expanded="true" signature="2496:2668" ph="update respo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/img/avatar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/voircandidat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/content/voircandidatcontent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/jasny/jasny-bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="5" column="2383" selection-start-line="5" selection-start-column="2383" selection-end-line="5" selection-end-column="2383" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/jasny/jasny-bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserFiles/User6/fileavatar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/preinscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="195" column="39" selection-start-line="195" selection-start-column="39" selection-end-line="195" selection-end-column="39" />
+          <folding>
+            <element signature="e#29398#29434#0#HTML" expanded="true" />
+            <element signature="e#29587#29632#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/content/profilecontent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1467359230130" expanded="true" signature="74:96" ph="SELECT * FRO... candidat" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/phpmailer/vendor/composer/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1495">
+          <caret line="65" column="2" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
+          <folding>
+            <marker date="1467206769608" expanded="true" signature="248:316" ph="select id fr... ummisco_actor" />
+            <marker date="1467206769608" expanded="true" signature="672:727" ph="select nom,p... ummisco_actor" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/firstconnexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <marker date="1467361722974" expanded="true" signature="244:312" ph="select id fr... ummisco_actor" />
+            <marker date="1467361722974" expanded="true" signature="668:723" ph="select nom,p... ummisco_actor" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/testmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="49" column="1" selection-start-line="1" selection-start-column="0" selection-end-line="49" selection-end-column="1" />
+          <folding>
+            <marker date="1467363263021" expanded="true" signature="93:646" ph="..." />
+            <marker date="1467363263021" expanded="true" signature="132:176" ph="..." />
+            <marker date="1467363263021" expanded="true" signature="222:417" ph="..." />
+            <marker date="1467363263021" expanded="true" signature="230:410" ph="..." />
+            <marker date="1467363263021" expanded="true" signature="463:617" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Candidat/mapreinscription.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Candidat/content/mapreinscriptioncontent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <marker date="1467366309086" expanded="true" signature="114:154" ph="select * fro... ummisco_actor" />
+            <marker date="1467366309086" expanded="true" signature="234:275" ph="select * fro... candidat" />
+            <marker date="1467366309086" expanded="true" signature="399:433" ph="select * fro... adresse" />
+            <marker date="1467366309086" expanded="true" signature="516:554" ph="select * fro... responsable" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/preinscriptionaction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="367" column="0" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
+          <folding>
+            <element signature="n#enregistreFichier#0;n#!!top" expanded="false" />
+            <marker date="1467367096936" expanded="true" signature="4386:4428" ph="INSERT INTO adresse... " />
+            <marker date="1467367096936" expanded="true" signature="4741:5034" ph="INSERT INTO ummisco_actor... " />
+            <marker date="1467367096936" expanded="true" signature="5202:5321" ph="INSERT INTO bourse... " />
+            <marker date="1467367096936" expanded="true" signature="5501:5543" ph="INSERT INTO adresse... " />
+            <marker date="1467367096936" expanded="true" signature="5829:5967" ph="INSERT INTO responsable... " />
+            <marker date="1467367096936" expanded="true" signature="6137:6198" ph="SELECT id FR... departement" />
+            <marker date="1467367096936" expanded="true" signature="6838:7283" ph="INSERT INTO candidat... " />
+            <marker date="1467367096936" expanded="true" signature="8195:8349" ph="INSERT INTO diplome... " />
+            <marker date="1467367096936" expanded="true" signature="8446:8600" ph="INSERT INTO diplome... " />
+            <marker date="1467367096936" expanded="true" signature="8697:8851" ph="INSERT INTO diplome... " />
+            <marker date="1467367096936" expanded="true" signature="8948:9102" ph="INSERT INTO diplome... " />
+            <marker date="1467367096936" expanded="true" signature="9199:9353" ph="INSERT INTO diplome... " />
+            <marker date="1467367096936" expanded="true" signature="9458:10011" ph="..." />
+            <marker date="1467367096936" expanded="true" signature="9497:9541" ph="..." />
+            <marker date="1467367096936" expanded="true" signature="9587:9782" ph="..." />
+            <marker date="1467367096936" expanded="true" signature="9595:9775" ph="..." />
+            <marker date="1467367096936" expanded="true" signature="9828:9982" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

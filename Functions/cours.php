@@ -1,6 +1,7 @@
 <?php
 
-require_once "database.php";
+//require_once "database.php";
+require_once "bdd.php";
 
 if ($_SERVER['REQUEST_METHOD'] === "POST")
 {

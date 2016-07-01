@@ -12,7 +12,15 @@ while($donnee=$req->fetch())
     }
 }
 $nbPreinsAttente=$nbPreins-$nbPreinsValide;
-$tauxValidation = (100*$nbPreinsValide)/$nbPreins;
+if($nbPreins>0)
+{
+    $tauxValidation = round((100*$nbPreinsValide)/($nbPreins),2);
+}
+else
+{
+    $tauxValidation = 0;
+}
+
 $req->closeCursor();
 ?>
 <!-- Small boxes (Stat box) -->
