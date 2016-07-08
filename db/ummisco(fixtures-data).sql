@@ -49,7 +49,7 @@ INSERT INTO `option_departement` (`id`, `libelle`, `departement_id`) VALUES
 --
 -- Contenu de la table `enseignant_chercheur`
 --
-/*
+
 INSERT INTO `enseignant_chercheur` (`id`, `nbPublications`, `actor_id`) VALUES
 (1, 2, 2),
 
@@ -83,7 +83,7 @@ INSERT INTO `cours` (`id`, `heureDebut`, `duree`, `dateCours`, `lieu`, `id_matie
 
 -- --------------------------------------------------------
 
-*/
+
 --
 -- Contenu de la table `responsable`
 --
@@ -96,8 +96,8 @@ INSERT INTO `responsable` (`id`, `nom`, `prenom`, `email`, `numTel`, `boitePosta
 --
 
 INSERT INTO `ummisco_actor` (`id`, `prenom`, `nom`, `datNaiss`, `lieuNaiss`, `paysNaiss`, `regionNaiss`, `nationalite`, `email`, `numTel`, `boitePostale`, `password`, `discr`, `adresse_id`, `sexe`) VALUES
-/*(2, 'Alassane', 'Bah', '1975-12-08', 'Dakar', 'Senegal', 'Dakar', 'Senegalaise', 'alassane.bah@gmail.com', '775005050', 'BP 4848 Dakar Fann', 'ff7200d846e54c8d4d633e3a3a17e3b73990fce5', 'rp', 4, 'Masculin'),
-(5, 'Ibrahima', 'Fall', '1976-07-06', 'Louga', 'Senegal', 'Louga', 'Senegalaise', 'ifall@esp.sn', '775255252', 'BP 6455 Louga Lo', 'dc3001bf457f7c33e0fa3c8b547e3cd029df4b76', 'enseignant', 8, 'Masculin'),*/
+(1, 'Alassane', 'Bah', '1975-12-08', 'Dakar', 'Senegal', 'Dakar', 'Senegalaise', 'alassane.bah@gmail.com', '775005050', 'BP 4848 Dakar Fann', 'ff7200d846e54c8d4d633e3a3a17e3b73990fce5', 'rp', 4, 'Masculin'),
+(5, 'Ibrahima', 'Fall', '1976-07-06', 'Louga', 'Senegal', 'Louga', 'Senegalaise', 'ifall@esp.sn', '775255252', 'BP 6455 Louga Lo', 'dc3001bf457f7c33e0fa3c8b547e3cd029df4b76', 'enseignant', 8, 'Masculin'),
 (2, 'Papa Latyr', 'Mbodj', '1995-03-15', 'Pikine', 'Senegal', 'Dakar', 'Senegalaise', 'latyr@esp.sn', '771798853', 'BP 8128 Dakar Fann', '482f7629a2511d23ef4e958b13a5ba54bdba06f2', 'candidat', 1, 'Masculin');
 
 
