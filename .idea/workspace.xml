@@ -2,8 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ffd40dc-6fa2-4651-ad53-f42b4cab658d" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Functions/examen.php" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/ummisco(fixtures-data).sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/404error.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/planification_cours.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/ummisco-0.5.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/ummisco-0.8.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/ummisco-0.9.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/ummiscodata.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/ummiscodb-0.1.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/ummiscodb-0.2.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/ummiscodb-0.3.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/ummiscodb-0.4.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/ummiscodb.sql" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/db/ummisco-0.7.sql" afterPath="$PROJECT_DIR$/db/ummisco(empty-stable-version).sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rp/content/voircandidatcontent.php" afterPath="$PROJECT_DIR$/Rp/content/voircandidatcontent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rp/voircandidat.php" afterPath="$PROJECT_DIR$/Rp/voircandidat.php" />
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
     </list>
     <ignored path="Ummisco.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,6 +46,12 @@
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -32,6 +59,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+<<<<<<< HEAD
       <file leaf-file-name="examen.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions/examen.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,6 +70,138 @@
                 <marker date="1467947648913" expanded="true" signature="303:338" placeholder="SELECT * FRO..examen..." />
                 <marker date="1467947648913" expanded="true" signature="316:323" placeholder="INSERT INTO examen..." />
                 <marker date="1467947648913" expanded="true" signature="586:606" placeholder="SELECT * FRO..examen..." />
+=======
+      <file leaf-file-name="preinscriptionaction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/preinscriptionaction.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7337">
+              <caret line="367" column="0" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
+              <folding>
+                <element signature="n#enregistreFichier#0;n#!!top" expanded="false" />
+                <marker date="1467367096936" expanded="true" signature="4386:4428" ph="INSERT INTO adresse... " />
+                <marker date="1467367096936" expanded="true" signature="4741:5034" ph="INSERT INTO ummisco_actor... " />
+                <marker date="1467367096936" expanded="true" signature="5202:5321" ph="INSERT INTO bourse... " />
+                <marker date="1467367096936" expanded="true" signature="5501:5543" ph="INSERT INTO adresse... " />
+                <marker date="1467367096936" expanded="true" signature="5829:5967" ph="INSERT INTO responsable... " />
+                <marker date="1467367096936" expanded="true" signature="6137:6198" ph="SELECT id FR... departement" />
+                <marker date="1467367096936" expanded="true" signature="6838:7283" ph="INSERT INTO candidat... " />
+                <marker date="1467367096936" expanded="true" signature="8195:8349" ph="INSERT INTO diplome... " />
+                <marker date="1467367096936" expanded="true" signature="8446:8600" ph="INSERT INTO diplome... " />
+                <marker date="1467367096936" expanded="true" signature="8697:8851" ph="INSERT INTO diplome... " />
+                <marker date="1467367096936" expanded="true" signature="8948:9102" ph="INSERT INTO diplome... " />
+                <marker date="1467367096936" expanded="true" signature="9199:9353" ph="INSERT INTO diplome... " />
+                <marker date="1467367096936" expanded="true" signature="9458:10011" ph="..." />
+                <marker date="1467367096936" expanded="true" signature="9497:9541" ph="..." />
+                <marker date="1467367096936" expanded="true" signature="9587:9782" ph="..." />
+                <marker date="1467367096936" expanded="true" signature="9595:9775" ph="..." />
+                <marker date="1467367096936" expanded="true" signature="9828:9982" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="candidats.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rp/candidats.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profileRp.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/profileRp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7199">
+              <caret line="313" column="0" selection-start-line="312" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="candidatscontent.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rp/content/candidatscontent.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+              <folding>
+                <marker date="1467338986653" expanded="true" signature="74:239" ph="SELECT candi... candidat" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="voircandidatcontent.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rp/content/voircandidatcontent.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <marker date="1467592258829" expanded="true" signature="113:148" ph="SELECT * FRO... candidat" />
+                <marker date="1467592258829" expanded="true" signature="1751:1895" ph="..." />
+                <marker date="1467592258829" expanded="true" signature="2034:2292" ph="..." />
+                <marker date="1467592258829" expanded="true" signature="2089:2292" ph="..." />
+                <marker date="1467592258829" expanded="true" signature="2137:2292" ph="..." />
+                <marker date="1467592258829" expanded="true" signature="2161:2292" ph="..." />
+                <marker date="1467592258829" expanded="true" signature="2182:2292" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="voircandidat.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rp/voircandidat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404error.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/404error.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ummisco(fixtures-data).sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/ummisco(fixtures-data).sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="541">
+              <caret line="117" column="30" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ummisco(empty-stable-version).sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/ummisco(empty-stable-version).sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testmail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/testmail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1127">
+              <caret line="49" column="1" selection-start-line="1" selection-start-column="0" selection-end-line="49" selection-end-column="1" />
+              <folding>
+                <marker date="1467363263021" expanded="true" signature="93:646" ph="..." />
+                <marker date="1467363263021" expanded="true" signature="132:176" ph="..." />
+                <marker date="1467363263021" expanded="true" signature="222:417" ph="..." />
+                <marker date="1467363263021" expanded="true" signature="230:410" ph="..." />
+                <marker date="1467363263021" expanded="true" signature="463:617" ph="..." />
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
               </folding>
             </state>
           </provider>
@@ -55,9 +215,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/dist/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/includes/basenav.php" />
         <option value="$PROJECT_DIR$/dist/mycss/preinscription.css" />
+=======
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
         <option value="$PROJECT_DIR$/dist/AdminLTE/css/AdminLTE.min.css" />
         <option value="$PROJECT_DIR$/includes/lockscreen.php" />
         <option value="$PROJECT_DIR$/Candidat/profile.php" />
@@ -91,10 +254,8 @@
         <option value="$PROJECT_DIR$/Rp/ajouterCours.php" />
         <option value="$PROJECT_DIR$/includes/profileEnseignant.php" />
         <option value="$PROJECT_DIR$/includes/profileCandidat.php" />
-        <option value="$PROJECT_DIR$/Rp/voircandidat.php" />
         <option value="$PROJECT_DIR$/Candidat/mapreinscription.php" />
         <option value="$PROJECT_DIR$/Candidat/modif_preinscr.php" />
-        <option value="$PROJECT_DIR$/Rp/content/voircandidatcontent.php" />
         <option value="$PROJECT_DIR$/Public/login.php" />
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/includes/footer.php" />
@@ -105,7 +266,16 @@
         <option value="$PROJECT_DIR$/Public/testmail.php" />
         <option value="$PROJECT_DIR$/Candidat/content/mapreinscriptioncontent.php" />
         <option value="$PROJECT_DIR$/Public/preinscriptionaction.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Functions/examen.php" />
+=======
+        <option value="$PROJECT_DIR$/db/ummisco-1.0.sql" />
+        <option value="$PROJECT_DIR$/db/ummisco(fixtures-data).sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/274c3d45-b777-45dd-b0f7-5095dedb4174/console.sql" />
+        <option value="$PROJECT_DIR$/Rp/content/voircandidatcontent.php" />
+        <option value="$PROJECT_DIR$/Rp/voircandidat.php" />
+        <option value="$PROJECT_DIR$/includes/404error.html" />
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
       </list>
     </option>
   </component>
@@ -174,17 +344,200 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Ummisco" />
+<<<<<<< HEAD
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Functions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+=======
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserFiles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserFiles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="User6" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Functions" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Enseignant" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Enseignant" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Candidat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ummisco" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Candidat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,18 +565,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Ummisco\config" />
       <recent name="C:\wamp\www\Ummisco\db" />
       <recent name="C:\wamp\www\Ummisco\Rp\content" />
       <recent name="C:\wamp\www\Ummisco\includes" />
       <recent name="C:\wamp\www\Ummisco\Rp" />
-      <recent name="C:\wamp\www\Ummisco\Public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Ummisco\db" />
       <recent name="C:\wamp\www\Ummisco\Public" />
       <recent name="C:\wamp\www\Ummisco\config" />
       <recent name="C:\wamp\www\Ummisco\dist\jasny" />
       <recent name="C:\wamp\www\Ummisco\Candidat" />
-      <recent name="C:\wamp\www\Ummisco\Rp" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.preinscription.php">
@@ -283,12 +636,14 @@
       <workItem from="1467237728347" duration="2883000" />
       <workItem from="1467284263407" duration="6134000" />
       <workItem from="1467320354208" duration="946000" />
-      <workItem from="1467337581097" duration="26983000" />
+      <workItem from="1467337581097" duration="30149000" />
+      <workItem from="1467471933893" duration="1126000" />
+      <workItem from="1467589748635" duration="3491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130600000" />
+    <option name="totallyTimeSpent" value="138383000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -303,23 +658,31 @@
     <frame x="-9" y="-9" width="1300" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21774194" sideWeight="0.49015316" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22192225" sideWeight="0.49015316" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33150986" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23434125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33043477" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33041576" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21436284" sideWeight="0.5098468" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -359,6 +722,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Rp/content/profilecontent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -435,6 +799,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
     <entry file="file://$PROJECT_DIR$/Rp/listeUe.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -453,6 +819,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -460,6 +827,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+=======
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
         </state>
       </provider>
     </entry>
@@ -488,6 +857,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -495,9 +865,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/ummiscodata.sql" />
     <entry file="file://$PROJECT_DIR$/includes/profileEnseignant.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -561,11 +934,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Public/modif_preinscr.php" />
     <entry file="file://$PROJECT_DIR$/Candidat/content/mapreinscriptioncontent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1467366309086" expanded="true" signature="114:154" ph="select * fro... ummisco_actor" />
+            <marker date="1467366309086" expanded="true" signature="234:275" ph="select * fro... candidat" />
+            <marker date="1467366309086" expanded="true" signature="399:433" ph="select * fro... adresse" />
+            <marker date="1467366309086" expanded="true" signature="516:554" ph="select * fro... responsable" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -609,6 +988,7 @@
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Rp/voircandidat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -623,6 +1003,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
     <entry file="file://$PROJECT_DIR$/dist/jasny/jasny-bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -655,20 +1037,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="195" column="39" selection-start-line="195" selection-start-column="39" selection-end-line="195" selection-end-column="39" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/testmail.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="1" selection-start-line="1" selection-start-column="0" selection-end-line="49" selection-end-column="1" />
           <folding />
+=======
+        <state relative-caret-position="506">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Candidat/mapreinscription.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-5.230769">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
@@ -690,6 +1081,18 @@
         <state vertical-scroll-proportion="0.041564792">
           <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
           <folding />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/test.php" />
+    <entry file="file://$PROJECT_DIR$/Public/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
         </state>
       </provider>
     </entry>
@@ -705,11 +1108,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.83129585">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+<<<<<<< HEAD
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/login.php">
+=======
+          <folding>
+            <marker date="1467361722974" expanded="true" signature="244:312" ph="select id fr... ummisco_actor" />
+            <marker date="1467361722974" expanded="true" signature="668:723" ph="select nom,p... ummisco_actor" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Candidat/mapreinscription.php">
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.041564792">
           <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
@@ -719,22 +1133,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/connexion.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.75061125">
           <caret line="65" column="2" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
           <folding />
+=======
+        <state relative-caret-position="552">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <marker date="1467366309086" expanded="true" signature="114:154" ph="select * fro... ummisco_actor" />
+            <marker date="1467366309086" expanded="true" signature="234:275" ph="select * fro... candidat" />
+            <marker date="1467366309086" expanded="true" signature="399:433" ph="select * fro... adresse" />
+            <marker date="1467366309086" expanded="true" signature="516:554" ph="select * fro... responsable" />
+          </folding>
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions/examen.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.6666667">
           <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+=======
+        <state relative-caret-position="7337">
+          <caret line="367" column="0" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
+>>>>>>> 553310f51839bdea09542074b293c4e15c9a0f7d
           <folding>
             <marker date="1467947648913" expanded="true" signature="113:159" placeholder="INSERT INTO examen..." />
             <marker date="1467947648913" expanded="true" signature="303:338" placeholder="SELECT * FRO..examen..." />
             <marker date="1467947648913" expanded="true" signature="316:323" placeholder="INSERT INTO examen..." />
             <marker date="1467947648913" expanded="true" signature="586:606" placeholder="SELECT * FRO..examen..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/profileRp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7199">
+          <caret line="313" column="0" selection-start-line="312" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/candidats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/ummisco-1.0.sql" />
+    <entry file="file://$PROJECT_DIR$/Public/testmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="49" column="1" selection-start-line="1" selection-start-column="0" selection-end-line="49" selection-end-column="1" />
+          <folding>
+            <marker date="1467363263021" expanded="true" signature="93:646" ph="..." />
+            <marker date="1467363263021" expanded="true" signature="132:176" ph="..." />
+            <marker date="1467363263021" expanded="true" signature="222:417" ph="..." />
+            <marker date="1467363263021" expanded="true" signature="230:410" ph="..." />
+            <marker date="1467363263021" expanded="true" signature="463:617" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/content/candidatscontent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <marker date="1467338986653" expanded="true" signature="74:239" ph="SELECT candi... candidat" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/ummisco(fixtures-data).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="117" column="30" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/274c3d45-b777-45dd-b0f7-5095dedb4174/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9223">
+          <caret line="401" column="0" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/ummisco(empty-stable-version).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/content/voircandidatcontent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1467592258829" expanded="true" signature="113:148" ph="SELECT * FRO... candidat" />
+            <marker date="1467592258829" expanded="true" signature="1751:1895" ph="..." />
+            <marker date="1467592258829" expanded="true" signature="2034:2292" ph="..." />
+            <marker date="1467592258829" expanded="true" signature="2089:2292" ph="..." />
+            <marker date="1467592258829" expanded="true" signature="2137:2292" ph="..." />
+            <marker date="1467592258829" expanded="true" signature="2161:2292" ph="..." />
+            <marker date="1467592258829" expanded="true" signature="2182:2292" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rp/voircandidat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/404error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -274,6 +274,38 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </ul>
             </li>-->
             <!--<li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>-->
+
+            <!--Gestion des evaluatios -->
+            <li class="treeview">
+              <a href="#"><i class="fa fa-book"></i><span>Gestion des Evaluation</span><i class="fa fa-angle-left pull-right"></i></a>
+              <ul class="treeview-menu">
+                <li>
+                  <a ><span>Gestion des Examens</span><i class="fa fa-angle-left pull-right"></i></a>
+                  <ul class="treeview-menu">
+                    <li>
+                      <a href="../Enseignant/listeExamen.php"><span>Liste des Examens</span></a>
+                    </li>
+                    <li>
+                      <a href="../Enseignant/ajouterExamen.php"><span>Ajouter un Examen</span></a>
+
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a ><span>Gestion des Notes</span><i class="fa fa-angle-left pull-right"></i></a>
+                  <ul class="treeview-menu">
+                    <li>
+                      <a href="../Enseignant/listeNote.php"><span>Liste des Notes</span></a>
+                    </li>
+                    <li>
+                      <a href="../Enseignant/ajouterNote.php"><span>Ajouter une Note</span></a>
+
+                    </li>
+                  </ul>
+                </li>
+
+              </ul>
+            </li>
           </ul><!-- /.sidebar-menu -->
         </section>
         <!-- /.sidebar -->
