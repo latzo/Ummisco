@@ -2,5 +2,7 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/config/ummisco-0.5.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/db/ummisco(empty-stable-version).sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/db/ummisco(fixtures-data).sql" dialect="H2" />
   </component>
 </project>
